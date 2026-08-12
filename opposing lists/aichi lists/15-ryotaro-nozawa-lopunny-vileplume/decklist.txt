@@ -40,3 +40,23 @@ Energy: 7
 1 Double Colorless Energy SUM 136
 
 Total Cards: 60
+
+Usage:
+This is Ryotaro Nozawa's top-16 CL Aichi 2026 Evo Vileplume / Mega Lopunny ex list. It shares the fast Bunnelby + Technical Machine: Evolution shell with the runner-up Vileplume/Stoutland deck, but its conversion plan is different: establish Vileplume Item lock and Pidgeot ex consistency, then use Mega Lopunny ex as a compact high-damage attacker while the opponent is forced to operate through the lock. Do not import the Stoutland deck-out brain into this list.
+
+The opening ALS is still built around Guzma & Hala and Tag Call. Guzma & Hala can assemble Technical Machine: Evolution, a Special Energy and Artazon; Buddy-Buddy Poffin, Artazon, Fan Rotom and Capture Energy fill the needed Basics. Bunnelby PRC's Omega Barrage allows two attacks, so a going-second Bunnelby can use TM Evolution twice in one turn to advance both Oddish -> Gloom -> Vileplume AOR and Pidgey -> Pidgeotto -> Pidgeot ex. When this route is complete, the opponent faces Item lock while Pidgeot's Quick Search supplies one exact card per turn.
+
+Jet Energy is valuable when the setup Bunnelby must be moved Active as part of paying the attack axis; Capture Energy is better when another Basic is missing. The brain should choose the Special Energy based on the actual opening rather than hardcoding one. Fan Rotom is another early connector for the evolution Basics, while Xtransceiver adds probabilistic Supporter access and should be evaluated as such rather than assumed successful.
+
+Mega Lopunny ex is the main attacker. Gale Thrust costs one Colorless and does 60 plus 170 more if Mega Lopunny moved from the Bench to the Active Spot that turn, for 230 before modifiers. Powerful Colorless Energy adds damage for a Colorless attacker and Choice Belt adds damage against Pokémon V; together they can push Gale Thrust to the 280 range needed to cleanly KO Regidrago VSTAR when the switching condition is satisfied. Buneary's Run Around, Jet Energy, Guzma and Float Stone all help create the required Bench-to-Active movement. The brain must explicitly track whether Mega Lopunny moved Active this turn; an already-Active Lopunny does not receive the bonus.
+
+Spiky Hopper is the fallback two-Colorless attack at 160 whose damage ignores effects on the opponent's Active Pokémon. It can be preferable into defensive effects/walls where Gale Thrust's raw number is not the real constraint. The deck also includes Vileplume BUS: while it is Active, Disgusting Pollen prevents opposing Basic Pokémon from attacking. That is a separate lock mode from Vileplume AOR's Bench Item lock and can become the correct Active in a Basic-heavy matchup, but promoting it sacrifices the attacker slot and should be done only when the resulting lock dominates the opponent's route.
+
+Stealthy Hood protects Vileplume/Pidgeot from Ability suppression such as Wobbuffet/Garbotoxin. Karen is important against discard-based attackers such as Regidrago and other recursion engines. Path to the Peak and Silent Lab add additional Ability-denial modes, but the brain should use Pidgeot/Eldegoss/other needed Abilities before playing a Stadium that suppresses them. Budew can provide early Item denial when the full Vileplume line is not yet available.
+
+Primary objective: execute the fast Evolution ALS when possible, preserve Item lock, and use Pidgeot to repeatedly assemble a Bench-to-Active Mega Lopunny Gale Thrust knockout chain. The deck wins by making its efficient attacker operate while the opponent's Item-dependent setup and recovery graph is disconnected.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/evo-vileplume
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
+https://note.com/tomopon_ptcg/n/n980eeda2406e

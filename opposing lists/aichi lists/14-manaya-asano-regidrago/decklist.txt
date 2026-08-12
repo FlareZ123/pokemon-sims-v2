@@ -42,3 +42,23 @@ Energy: 10
 2 Fire Energy MEE 2
 
 Total Cards: 60
+
+Usage:
+This is Manaya Asano's top-16 CL Aichi 2026 Regidrago VSTAR list. It is a wide-Bench toolbox build with Sky Field, Sudowoodo, Oricorio-GX and a broad Dragon package. The brain should deliberately manage Bench geometry: this list can exploit a large Bench for setup and recovery while also carrying Sudowoodo to cap an opponent that depends on Sky Field-sized boards.
+
+The primary engine is four Quick Ball + four Mysterious Treasure backed by Dedenne-GX, Tapu Lele-GX, Squawkabilly ex and VS Seeker. Establish Regidrago VSTAR and the correct discard payload, then use four Double Dragon Energy plus Raihan/Crispin to keep the attacker chain live. Sky Field can create temporary space for support Pokémon that would otherwise crowd out Regidrago, but replacing Sky Field can force Bench reduction, so the brain must decide which liabilities can safely be discarded before committing to an over-five Bench.
+
+Sudowoodo GRI is a matchup tech whose Roadblock limits the opponent's Bench to four while it is in play. Dowsing Machine's Aichi review specifically argues Sudowoodo was underplayed and notes how much it pressures wide-Bench engines such as Shadow Rider and traditional Electro Rain. Preserve it when the opposing strategy requires many support Pokémon; do not bench it automatically against decks that operate comfortably on a small board.
+
+Mega Dragonite ex supplies the highest straightforward knockout attack in the toolbox: Ryuno Glide does 330, but the attack effect discards two Energy from the attacker. When copied by Apex Dragon, Regidrago pays that post-attack resource cost, so the brain should use it when 330 converts into a decisive knockout rather than whenever maximum damage is available. Hisuian Goodra VSTAR provides the opposite mode through Rolling Iron, reducing incoming damage and forcing opponents without the correct counter to spend an extra attack. Dialga-GX creates the Timeless-GX extra turn; Dragapult/Kyurem provide spread; Noivern ex supplies control/protection modes.
+
+Oricorio-GX is a recovery/draw support Pokémon: after one of the user's Pokémon was Knocked Out on the previous opponent turn, Dance of Tribute can draw three. This makes it valuable in games where a Regidrago or Budew is expected to fall, but it also occupies a Rule Box Bench slot and becomes vulnerable to opposing gust/spread. Extract its Ability before playing into any Ability lock and avoid benching it when the opponent can turn the two-Prize liability into an easier route than the draw is worth.
+
+Counter Catcher and Guzma let the list exploit Prize deficits or target support Pokémon, while Megaton Blower answers Tool/Stadium boards. Budew is the Item-lock lead when denying a turn of Items outweighs its Prize liability. Latias ex helps pivot a wide support board. Because this list has only one Stadium, Sky Field should be treated as a finite connector, not permanent board permission.
+
+Primary objective: create a flexible Regidrago board with enough Bench capacity to use the right support nodes, restrict opposing wide-board engines with Sudowoodo when profitable, and choose between 330-damage conversion, Rolling Iron defense, Timeless extra-turn sequencing and spread according to the exact race.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/regidrago
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league

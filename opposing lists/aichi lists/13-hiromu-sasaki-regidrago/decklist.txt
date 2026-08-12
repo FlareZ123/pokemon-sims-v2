@@ -39,3 +39,23 @@ Energy: 10
 3 Double Dragon Energy ROS 97
 
 Total Cards: 60
+
+Usage:
+This is Hiromu Sasaki's top-16 CL Aichi 2026 Regidrago VSTAR list. It is a streamlined Apex Dragon build with a deliberately damage-counter/spread-oriented payload package: Salamence ex, Dragapult ex, Kyurem and Echoing Horn all create ways to convert Bench damage into an improved Prize map, while Dialga-GX supplies the Timeless-GX extra-turn line and Noivern ex supplies matchup-specific protection/control.
+
+The setup plan is direct and high-throughput. Four Mysterious Treasure, three Quick Ball, three Battle VIP Pass, three Professor's Research, three VS Seeker, two Battle Compressor and the Dedenne-GX/Squawkabilly ex/Tapu Lele-GX engine should be used to establish Regidrago and place the correct Dragons in the discard without sacrificing the next attack's Energy or recovery route. Three Double Dragon Energy plus Crispin/Raihan provide the compressed Energy axis. Discard payload selection is matchup-dependent; do not throw every Dragon away merely because Apex Dragon can copy it.
+
+Salamence ex is the distinguishing payload. Wide Blast places 50 damage on every opposing Benched Pokémon, which can prepare multiple low-HP support Pokémon for later Phantom Dive/Trifrost or force the opponent to alter its Bench. Dragon Impact reaches 300 damage but discards two Energy from the attacking Pokémon, so it is a high-cost knockout line rather than the default attack. When copied by Apex Dragon, that discard cost comes off Regidrago itself and must be included in the next-turn readiness calculation.
+
+Echoing Horn is mirror/prize-map manipulation. It can return a small opposing Pokémon such as Budew to the Bench to create an extra Phantom Dive target, or return an opposing Dialga-GX/Koraidon ex from discard to the Bench so Apex Dragon temporarily loses access to that attack. Dowsing Machine's Aichi review identifies both uses as deliberate Regidrago mirror technology. The brain should compare Horn's Bench target to the opponent's remaining escape/recovery graph rather than using it as generic gust support.
+
+Silent Lab is an asymmetric timing tool only after this deck has extracted the needed Basic Pokémon Abilities; it can suppress opposing Basic Ability engines but also turns off Dedenne-GX, Squawkabilly ex, Tapu Lele-GX and Latias ex while active. Parallel City can reduce Bench width or clean up consumed liabilities. Megaton Blower should be reserved for a Tool/Stadium state where the reset is worth the ACE SPEC opportunity cost.
+
+Budew is the early Item-lock lead when one denied Item turn is more valuable than immediately developing the Active Regidrago. In the mirror, going-second Budew can change the opponent's sequencing enough to create the first meaningful attack window; however, it is also an easy Prize, so the policy must account for Echoing Horn/Phantom Dive counterplay.
+
+Primary objective: use the fast Regidrago engine to reach the first decisive attack, then exploit spread, Echoing Horn and extra-turn sequencing to collapse multiple opposing setup nodes rather than evaluating each attack only by Active damage.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/regidrago
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://note.com/shigeru_psy/n/ne04df8ecbea1
