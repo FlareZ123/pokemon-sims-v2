@@ -1,0 +1,39 @@
+Pokémon: 4
+4 Iron Thorns ex TWM 77
+
+Trainer: 48
+4 Plumeria BUS 120
+2 Lusamine CIN 96
+2 Guzma & Hala CEC 193
+2 Guzma BUS 115
+2 Sidney FST 241
+2 Eri TEF 146
+2 Team Flare Grunt XY 129
+1 Cynthia & Caitlin CEC 189
+1 Bellelba & Brycen-Man CEC 186
+1 Team Skull Grunt SUM 133
+1 Faba LOT 173
+1 N FCO 105
+1 Lillie's Determination MEG 119
+1 Gladion CIN 95
+1 Xerosic's Machinations SFA 64
+4 Trainers' Mail ROS 92
+3 VS Seeker PHF 109
+2 Nest Ball SVI 181
+2 Tag Call CEC 206
+2 Enhanced Hammer TWM 148
+2 Palace Book JP-SMP NAN25
+1 Heavy Ball BKT 140
+1 Megaton Blower SSP 182
+2 Handheld Fan TWM 150
+1 Tool Jammer BST 136
+2 Player's Ceremony JP-SP 127
+1 Thunder Mountain ♢ LOT 191
+1 Wondrous Labyrinth ♢ TEU 158
+
+Energy: 8
+4 Speed Lightning Energy RCL 173
+3 Double Colorless Energy SUM 136
+1 Capture Energy RCL 171
+
+Total Cards: 60
