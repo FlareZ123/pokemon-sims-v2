@@ -1,0 +1,41 @@
+Pokémon: 17
+4 Regidrago V
+3 Regidrago VSTAR
+1 Salamence ex
+1 Dragapult ex
+1 Noivern ex
+1 Dialga-GX
+1 Kyurem
+1 Latias ex
+1 Tapu Lele-GX
+1 Dedenne-GX
+1 Squawkabilly ex
+1 Budew
+
+Trainer: 33
+3 Professor's Research
+2 Guzma
+1 Lillie's Determination
+1 Iono
+1 Marnie
+1 Crispin
+1 Raihan
+4 Mysterious Treasure
+3 Quick Ball
+3 Battle VIP Pass
+3 VS Seeker
+2 Battle Compressor
+1 Hisuian Heavy Ball
+1 Super Rod
+1 Echoing Horn
+1 Megaton Blower
+2 Muscle Band
+1 Silent Lab
+1 Parallel City
+
+Energy: 10
+4 Grass Energy
+3 Fire Energy
+3 Double Dragon Energy
+
+Total Cards: 60
