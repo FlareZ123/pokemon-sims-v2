@@ -270,6 +270,46 @@ policy_notes
 
 Avoid storing enormous text traces for every production trial. Full traces are most useful for sampled audits, failures, unresolved games, policy disagreements, and regression tests.
 
+## Single-game trace mode (`--simulate-this`)
+
+In addition to batch Monte Carlo output, the simulator should provide a developer/debug interface equivalent in purpose to the original repository's `--simulate-this` mode: **run exactly one complete game between two selected deck files and print enough information to audit every important decision and state transition.**
+
+The canonical selector should be the exact repository-relative deck path so similarly named archetypes never become ambiguous. A target CLI may look like:
+
+```bash
+./pokemon_sims_v2 --simulate-this \
+  --main "main decks/regidrago-vstar.txt" \
+  --opponent "opposing lists/aichi lists/02-takahiro-ando-vileplume-control.txt" \
+  --main-goes-first \
+  --seed 12345
+```
+
+The exact flag spelling may evolve, but the capability is required. It should be possible to ask, in effect, **"run one game and show me everything for Regidrago VSTAR versus the Vileplume control list in Aichi slot #2."** Seat order must be explicit or clearly reported. A seed should be optional for ad hoc runs and accepted explicitly for deterministic replay.
+
+The trace should make the game inspectable without changing how either policy plays. At minimum, it should report:
+
+- exact main and opposing deck files
+- RNG seed and seat order
+- mulligans, opening hands, opening Active/Bench choices, and Prize setup
+- every draw and other random event
+- turn and phase boundaries
+- every action selected by each policy
+- costs paid, cards discarded, cards searched, targets chosen, attachments, switches, gusts, evolutions, and attacks
+- relevant legal-action or candidate-action information when it helps explain a policy decision
+- policy rationale or scores for materially ambiguous choices, including bounded projections when used
+- DCI/AMR or route information when those values materially determine the action
+- K0/K1 transitions and what the acting policy is legally allowed to know
+- continuous effects and lock changes caused by the actual board
+- damage, Special Conditions, Knock Outs, Prize taking, recovery, and zone changes
+- adjudication checks and the exact terminal/decisive reason
+- final board, remaining resources, winner, and termination type
+
+For debugging, the trace may also provide an explicitly labeled **omniscient engine view** containing hidden cards and Prize contents. That view must never be fed into policy decisions. The trace should distinguish engine truth from each player's legal information so hidden-information bugs are easy to detect.
+
+`--simulate-this` should use the same rules engine, card implementations, policies, adjudicators, and RNG semantics as production trials. It must not be a second simplified simulator. A production `GameRecord` should contain enough identifiers that a suspicious game can be replayed through this mode using the same two deck paths, seat assignment, and seed.
+
+This mode is a primary correctness tool for agents. New mechanics, policies, matchup adjudicators, and surprising statistical results should be auditable by running representative fixed seeds and reading the complete trace from opening setup through termination.
+
 ## Result generation
 
 The reporting layer must follow [`EXPECTED_RESULT_MANIFEST.md`](EXPECTED_RESULT_MANIFEST.md).
