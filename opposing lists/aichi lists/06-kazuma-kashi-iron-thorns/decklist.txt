@@ -40,3 +40,22 @@ Energy: 8
 1 Double Colorless Energy SUM 136
 
 Total Cards: 60
+
+Usage:
+This is Kazuma Kashi's top-8 CL Aichi 2026 Iron Thorns ex list. Iron Thorns is primarily an Ability-lock stall/control archetype that retains a real attacking win condition. The brain should choose between resource exhaustion and Prize pressure from the actual matchup rather than assuming every game must end the same way.
+
+The deck has only four Pokémon, all Iron Thorns ex. Keeping Iron Thorns Active turns on Initialization, which removes Abilities from Rule Box Pokémon in play except Future Pokémon. In Expanded this can disconnect major draw/search engines such as Dedenne-GX, Crobat V and many VSTAR/V-based setup lines before they ever start. Active positioning is therefore itself a strategic resource: do not retreat or promote another body casually because there is no other body and Initialization is the deck's main source of tempo.
+
+The aggressive ALS is available going second. Tag Call can find Guzma & Hala; Guzma & Hala can find Thunder Mountain Prism Star, Double Colorless Energy and an appropriate Tool. Thunder Mountain reduces a Lightning Pokémon's attack cost by one Lightning, turning Iron Thorns ex's [LCC] Volt Cyclone into [CC], which Double Colorless Energy can satisfy immediately. This enables a first-turn-going-second Volt Cyclone when the required pieces are live. Volt Cyclone also moves an Energy from the Active Iron Thorns to a Benched Iron Thorns, so attacks can distribute Energy toward the next attacker instead of simply piling all Energy on one Pokémon.
+
+The control plan is broader: Plumeria, Team Flare Grunt, Crushing Hammer, Enhanced Hammer, Faba, Handheld Fan, Team Skull Grunt, Eri, Sidney and related cards attack Energy, hand quality, Tools and Items. Lusamine plus VS Seeker/Cynthia & Caitlin extend Supporter/Stadium access. Team Rocket's Handiwork provides a deck-out axis. Wondrous Labyrinth can tax attacks, while Tropical Beach and Player's Ceremony support slower turns. Echoing Horn/Captivating Poké Puff can reintroduce liabilities that Guzma can trap or attack.
+
+Because the list can both stall and attack, evaluate the opponent's remaining graph. If Initialization has stranded a high-retreat support Pokémon and Energy denial can keep it from attacking or retreating, preserving the trap may be stronger than taking a Prize. If the opponent has already assembled a board that ignores or shuts off Initialization, Volt Cyclone pressure may be the better conversion.
+
+Wobbuffet is a particularly important counter-state: when an opposing Active Wobbuffet suppresses Iron Thorns ex's non-Psychic Ability, Initialization is no longer the assumed lock. The brain must recognize that the opposing setup graph can reopen and should not evaluate the board as though Rule Box Abilities remain disabled.
+
+Primary objective: establish Initialization before the opponent's Rule Box engine resolves, then choose the fastest forced path between sustainable resource denial/deck-out and Volt Cyclone Prize pressure. Preserve the option to switch plans as the opponent's escape resources change.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/iron-thorns
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results

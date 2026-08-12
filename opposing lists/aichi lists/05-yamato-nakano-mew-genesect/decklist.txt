@@ -35,3 +35,22 @@ Energy: 4
 4 Double Colorless Energy SUM 136
 
 Total Cards: 60
+
+Usage:
+This is Yamato Nakano's top-8 CL Aichi 2026 Mew VMAX / Genesect list. The deck remains an aggressive Mew VMAX shell powered by Genesect V's Fusion Strike System, but this exact 60 is unusually disruptive and should not be reduced to "attach Double Colorless Energy and Techno Blast every turn."
+
+The core board is Mew VMAX plus enough Fusion Strike Pokémon to make Genesect V draw efficiently. Battle VIP Pass, Quick Ball and Ultra Ball fill the board; Genesect then repeatedly refills the hand. Double Colorless Energy powers Mew VMAX's low-cost copying plan, with Techno Blast from Genesect V as the standard high-damage attack. Wally provides an accelerated evolution option when timing matters. Float Stone and Escape Rope keep the attacker chain moving after Techno Blast or awkward openings.
+
+This list deliberately mixes Sky Field and Path to the Peak. Sky Field expands the Bench so multiple Genesect and support Pokémon can be used for maximum draw, while Path to the Peak can be played after the deck has extracted enough value from its own Rule Box Abilities to shut down opposing Rule Box engines. The brain must sequence Genesect/Dedenne/Crobat/Forest Seal Stone before Path when those Abilities are still required; Path is a disruption conversion, not a Stadium to slam blindly at the start of every turn.
+
+The two Karen are a major Expanded metagame tool. Karen shuffles Pokémon from both discard piles back into their owners' decks, so against Regidrago it can erase the Dragon payloads that Apex Dragon was relying on and force the opponent to rebuild the discard graph. Do not spend Karen as generic recovery when holding it can disconnect an opposing discard-based win condition. Special Red Card and Marnie provide additional hand disruption, while Enhanced Hammer, Field Blower/Lost Vacuum and Pokémon Ranger answer specific board states.
+
+Lillie's Clefairy ex is especially relevant against Dragon decks because Fairy Zone makes opposing Dragon Pokémon Psychic-weak. Since Mew VMAX is Psychic, this can turn otherwise modest copied attacks into clean Dragon knockouts. The brain should compare the value of benching Clefairy against Bench-space cost, Sky Field stability, and whether the opponent can remove or exploit it.
+
+Dowsing Machine's Aichi review specifically calls this list unusual for playing a Path/Sky Field split, double Karen, double Special Red Card, and no Power Tablet. That means policy should emphasize disruption and resource resets more than a stock historical Mew VMAX damage-maximization script would.
+
+Primary objective: establish the Genesect draw engine and Mew VMAX attacker quickly, then use Stadium/hand/discard disruption to keep the opponent from executing a stronger Expanded combo while Mew converts the resulting tempo into Prizes.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/mew-vmax
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results

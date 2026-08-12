@@ -36,3 +36,22 @@ Energy: 12
 4 Unit Energy LPM UPR 138
 
 Total Cards: 60
+
+Usage:
+This is Shu Hosoda's top-4 CL Aichi 2026 Electro Rain OTK list. It is a combo deck whose intended game is radically shorter than a normal Prize race. The primary plan is to create a protected setup window with Gengar & Mimikyu-GX's Horror House-GX, then deliberately give up four Prizes through Electrode-GX and use Alolan Raichu's Electro Rain to take all six opposing Prizes in one attack.
+
+The first setup task is to assemble Horror House-GX when the opponent would otherwise interact before the combo. Unit Energy LPM can satisfy Psychic for Gengar & Mimikyu-GX. Horror House-GX prevents the opponent from playing cards from hand on their following turn, effectively creating the extra development window the OTK needs. The brain should not confuse this with a conventional control plan: Horror House is usually protecting the combo clock.
+
+Battle Compressor is central because Electrode-GX's Extra Energy Bomb attaches up to five Energy cards from the discard pile to a non-GX/non-EX Pokémon and then Knocks Out Electrode-GX. The deck wants Special Energy in the discard, Voltorb/Electrode established, and Alolan Raichu ready to receive those Energy. Two Extra Energy Bomb uses give the opponent four Prizes while loading a large Energy stack onto Alolan Raichu. The Prize deficit also makes Counter Energy/Reversal Energy operate in their intended comeback mode. Electro Rain then discards Lightning-providing Energy from Alolan Raichu and assigns repeated 30-damage packets across the opposing board until six Prizes can be taken.
+
+Quick Ball, Dedenne-GX, Crobat V, Squawkabilly ex, Tapu Lele-GX, Eldegoss V, Sky Field and Forest Seal Stone form a high-output draw/search engine. The policy should burn these aggressively when doing so completes the OTK because unused long-game resources have almost no value if the combo wins immediately. Conversely, Bench capacity and sequencing are critical: support Pokémon consume space needed for Voltorb/Electrode and Raichu, so Sky Field replacement or Sudowoodo-style Bench limits must be respected.
+
+Rescue Stretcher is unusually important because the combo repeatedly needs Pokémon pieces after self-Knock-Outs and discard-heavy setup. Escape Rope is both mobility and a way to alter opposing targets. Telescopic Sight is a damage modifier for appropriate Benched multi-Prize targets and should be evaluated against the exact board rather than assumed mandatory.
+
+The deck is fragile to disruption. Ability lock can stop Extra Energy Bomb or the draw engine; Item lock can disconnect Battle Compressor/search/recovery; Bench Barrier can invalidate the spread kill; attack-cost taxes such as Active Goomy can stop or delay Horror House-GX/Electro Rain; Wobbuffet can suppress most of the Rule Box setup engine. If the main OTK route is disconnected, preserve any credible fallback rather than sacrificing four Prizes blindly.
+
+Primary objective: complete Horror House -> double Electrode-GX acceleration -> six-Prize Electro Rain as early as legally possible, with all sequencing chosen around protecting that exact combo.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/electro-rain-otk
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
