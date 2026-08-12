@@ -37,3 +37,23 @@ Energy: 8
 1 Capture Energy RCL 171
 
 Total Cards: 60
+
+Usage:
+This is Ryoya Fujii's top-32 CL Aichi 2026 Quad Iron Thorns ex list. It is more Supporter/control-heavy than the 6th-place Thorns list and does not run Crushing Hammer or Team Rocket's Handiwork. Its primary plan is to keep Initialization Active, repeatedly strip Energy/resources through deterministic effects, and choose between eventual Volt Cyclone Prize pressure and a long control/deck-out game depending on what remains.
+
+Because Iron Thorns ex is the only Pokémon, the opening Active is deterministic after a legal Basic hand and Initialization is the deck's permanent structural advantage until an opposing effect disables it. Rule Box Pokémon Abilities other than Future Pokémon are suppressed while Iron Thorns is Active. The brain should continuously re-evaluate the lock if Wobbuffet, Ability removal or another interaction turns Initialization off rather than caching a permanent `ability_lock=true` state.
+
+The fast attacking ALS remains Tag Call -> Guzma & Hala -> Thunder Mountain Prism Star + Double Colorless Energy + Tool. Thunder Mountain reduces the Lightning attack requirement on Volt Cyclone, leaving two Colorless that DCE can satisfy for a turn-1-going-second attack. This list has three DCE, making the aggressive branch more redundant than some other Quad Thorns variants. Volt Cyclone moves an Energy from the Active Iron Thorns to a Benched Iron Thorns, so attacks should build the next attacker instead of stranding all Energy on the current one.
+
+The control branch relies on high Supporter density rather than coin-flip Hammer volume. Plumeria and Team Flare Grunt remove Energy; Faba removes Special Energy/Tools/Stadiums; Sidney and Eri attack the opponent's hand; Team Skull Grunt exposes and discards Energy from hand; Xerosic's Machinations can shrink a bloated hand; Bellelba & Brycen-Man advances mill while affecting both decks. Lusamine plus VS Seeker/Cynthia & Caitlin gives the deck recurring Supporter/Stadium access. Since only one Supporter can be played each turn, select the effect that moves the opponent's decisive clock furthest back rather than following a fixed denial order.
+
+Enhanced Hammer reinforces Special-Energy denial. Handheld Fan can move Energy off an opposing attacker after damage is dealt to the equipped Thorns, creating another way to break carefully assembled attack costs. Wondrous Labyrinth taxes attack costs; Player's Ceremony supports slower turns and resource accumulation. Palace Book is a consistency/selection tool whose exact effect should be implemented from its printing rather than approximated by the brain.
+
+Unlike the 6th-place list, this build has no explicit Team Rocket's Handiwork mill Supporter and no Crushing Hammer, so do not overstate a pure deck-out identity. Deck-out can still arise naturally from a long denial game, especially with Bellelba & Brycen-Man and recursion, but if the opponent's resources are already broken and Volt Cyclone safely closes Prizes, attacking is the more direct win condition.
+
+Primary objective: preserve Initialization, deny whichever Energy/hand resource completes the opponent's next attack, and switch to the DCE/Thunder Mountain Volt Cyclone clock when attacking ends the game faster than continued control.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/iron-thorns
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results

@@ -37,3 +37,25 @@ Energy: 3
 1 Double Colorless Energy SUM 136
 
 Total Cards: 60
+
+Usage:
+This is Hibiki Yamada's top-32 CL Aichi 2026 Meloetta OTK deck. Its primary strategy is literally a first-turn win, and the author published the exact combo. The brain should therefore optimize for the OTK state first and only enter a longer fallback game when the opening conditions or opponent's board make the donk impossible.
+
+The ideal game starts by going first against an opponent that put only one Pokémon into play during setup. Play Risky Ruins before benching the combo Pokémon. Risky Ruins places 2 damage counters on each Basic non-Darkness Pokémon when that Pokémon is put onto the Bench. Bench two Exeggcute plus other required Basics so the Exeggcute are left at very low HP and the rest of the board has movable damage counters.
+
+Use Damage Pump to move damage counters from the other newly Benched Pokémon onto the Exeggcute so they are Knocked Out. The opponent takes Prizes from those Knock Outs. Exeggcute PLF's Propagation then returns itself from the discard pile to the hand, allowing it to be Benched under Risky Ruins and Knocked Out again. The published line repeats this process until the opponent has exactly one Prize card remaining. This is deliberate Prize manipulation, not a failed board state.
+
+Once the opponent has exactly one Prize left, Technical Machine: Crisis Punch becomes legal. Crisis Punch costs three Colorless and does 280. Meloetta ex's Debut Performance allows Meloetta to attack on the user's first turn when going first, bypassing the normal first-player attack restriction. The Energy line is Tapu Koko Prism Star's Dance of the Ancients to accelerate a discarded Lightning Energy onto Meloetta plus manual Double Colorless Energy, producing the three Colorless-equivalent Energy needed for Crisis Punch. If the opponent has no Benched Pokémon and Crisis Punch KOs the lone Active, the game ends immediately because the opponent has no Pokémon in play.
+
+Battle Compressor is central to the combo because it loads Lightning Energy for Tapu Koko and can position other needed discard resources. Quick Ball, Battle VIP Pass, Unown, Trainers' Mail, Order Pad, Bicycle, Dedenne-GX, Crobat V, Squawkabilly ex and Forest Seal Stone form the high-throughput draw/search engine. Unown's Farewell Letter can convert Bench slots into more draw and Rescue Carrier can recover low-HP Unown/Exeggcute pieces as required. Because this is an OTK deck, ordinary long-game conservation is heavily AMR-overridden when spending resources completes the literal win.
+
+Order matters. Risky Ruins must be active before the relevant non-Darkness Basics are benched if their initial 20 damage is needed. Damage Pump must move counters without accidentally removing a required future KO source. Tapu Koko requires Lightning Energy in the discard. Crisis Punch is legal only while the opponent has exactly one Prize remaining. Meloetta must be the attacker to exploit Debut Performance on turn 1. The brain should validate every predicate rather than approximating the combo as a generic probability.
+
+Canceling Cologne and Escape Rope are outs to an opposing Active Ability/wall that prevents the final knockout. Special Red Card/Iono are fallback hand disruption. Bunnelby supplies a low-Prize recovery/mill utility plan when the donk fails. The published article notes a separate going-second plan involving forcing the opponent to one Prize and repeatedly using Crisis Punch with hand disruption; treat that as fallback logic, not the primary opening.
+
+Primary objective: when going first, assemble Risky Ruins -> repeatable Exeggcute self-KOs -> opponent exactly one Prize -> Tapu Koko + DCE Meloetta -> turn-1 Crisis Punch for the no-Bench game win. Every search/discard/action should be scored against whether it preserves this exact sequence.
+
+Research references:
+https://note.com/hibi2571/n/n9f4c7d7568b8
+https://dowsingmachine.com/en/archetypes/meloetta-otk
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league

@@ -41,3 +41,23 @@ Energy: 8
 3 Lightning Energy MEE 4
 
 Total Cards: 60
+
+Usage:
+This is Haruya Mori's top-32 CL Aichi 2026 Mega Absol ex / Garbodor list, and it is the Aichi top-cut Absol build that retains the older Vikavolt V + Lightning package. The brain therefore has three distinct early pressure modes: Garbotoxin Ability lock, Vikavolt V Item lock, or Budew Item lock, followed by Mega Absol hand destruction. These modes compete for setup and Active position and must be chosen against the opponent's actual route.
+
+Garbodor remains the strongest going-first lock when the opponent depends on Abilities. Wally can evolve Trubbish immediately when legal, and Float Stone/Adventure Bag provide the Tool that activates Garbotoxin. Sequence Dedenne-GX, Crobat V, Squawkabilly ex, Tapu Lele-GX and Forest Seal Stone before Garbotoxin when those self-Abilities are needed. Unlike the Boost Shake-heavy variants, this exact list has Wally and only two Trubbish/two Garbodor, so preserving the evolution pieces matters more.
+
+Vikavolt V is the distinguishing attacker/control card. Paralyzing Bolt costs Lightning + Colorless, does 50, and prevents the opponent from playing Items from hand on the following turn. This can be stronger than Garbotoxin against Item-dependent decks or can continue pressure after the Ability lock is already established. Super Zap Cannon reaches 190 but discards two Energy and is a finishing attack, not the default reason to bench Vikavolt. Tapu Koko Prism Star can accelerate discarded Lightning Energy to two Benched Pokémon, giving the deck a burst route into Vikavolt while also helping distribute Energy for later attacks.
+
+Budew supplies a zero-Energy Item-lock alternative. Because Budew and Vikavolt both attack to impose Item denial, choose based on available Energy, Prize liability, damage relevance and whether Budew's low HP creates an exploitable Prize map. Do not assume Item lock from Budew/Vikavolt and Active Mega Absol damage can occur simultaneously.
+
+Mega Absol ex is the main attacking conversion once the opponent's setup is constrained. Dark Patch accelerates Darkness Energy from discard; Claw of Darkness does 200 and discards the most strategically important card from the revealed opposing hand. Marnie/Iono/Roxanne can compress that hand first. Choose the discard by route criticality, especially a unique lock breaker, switch card, Energy connector or attacker evolution.
+
+Temple of Sinnoh pressures Double Dragon Energy and other Special Energy. Enhanced Hammer adds another Special-Energy denial axis. Karen punishes discard-based Pokémon engines. Field Blower can remove a Tool/Stadium that breaks the lock, but remember that removing the user's own Garbodor Tool turns Garbotoxin off.
+
+Primary objective: identify whether Ability denial or Item denial attacks the opponent's earliest complete route, establish that lock before their setup resolves, and use Mega Absol's hand destruction to prevent recovery. Vikavolt is a deliberate control branch, not merely a backup attacker.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/mega-absol
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
