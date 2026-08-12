@@ -1,0 +1,45 @@
+Pokémon: 26
+2 Pidgey
+2 Pidgeotto
+2 Pidgeot ex
+2 Oddish
+2 Gloom
+2 Vileplume
+1 Vileplume-GX
+2 Lillipup
+2 Herdier
+1 Stoutland
+2 Bunnelby
+1 Fan Rotom
+1 Relicanth
+1 Mr. Mime
+1 Girafarig
+1 Budew
+1 Jirachi
+
+Trainer: 28
+4 Guzma & Hala
+2 Guzma
+1 Cassius
+1 Karen
+1 Plumeria
+1 Gladion
+1 Faba
+1 Lusamine
+1 Bellelba & Brycen-Man
+1 Peonia
+1 Team Yell's Cheer
+4 Tag Call
+3 Stealthy Hood
+2 Technical Machine: Evolution
+1 Counter Gain
+2 Artazon
+1 Grand Tree
+
+Energy: 6
+2 Capture Energy
+2 Jet Energy
+1 Memory Energy
+1 Grass Energy
+
+Total Cards: 60
