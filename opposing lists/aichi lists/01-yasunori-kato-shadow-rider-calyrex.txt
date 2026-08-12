@@ -1,40 +1,40 @@
 Pokémon: 18
-3 Shadow Rider Calyrex V
-4 Shadow Rider Calyrex VMAX
-2 Lillie's Clefairy ex
-2 Tapu Lele-GX
-1 Trevenant & Dusknoir-GX
-1 Latias ex
-1 Dialga-GX
-1 Mimikyu
-1 Girafarig
-1 Marshadow
-1 Radiant Eternatus
+3 Shadow Rider Calyrex V CRE 74
+4 Shadow Rider Calyrex VMAX CRE 75
+2 Lillie's Clefairy ex JTG 56
+2 Tapu Lele-GX GRI 60
+1 Trevenant & Dusknoir-GX SMP 217
+1 Latias ex SSP 76
+1 Dialga-GX UPR 100
+1 Mimikyu GRI 58
+1 Girafarig LOT 94
+1 Marshadow UNB 81
+1 Radiant Eternatus CRZ 105
 
 Trainer: 31
-2 Lillie's Determination
-1 Carmine
-1 Iono
-1 Teammates
-1 Raihan
-1 Acerola
-1 Guzma
-1 Tulip
-4 Mysterious Treasure
-4 Fog Crystal
-3 VS Seeker
-1 Quick Ball
-1 Hisuian Heavy Ball
-1 Battle Compressor
-1 Field Blower
-1 Night Stretcher
-1 Unfair Stamp
-1 Float Stone
-1 Forest Seal Stone
-2 Sky Field
-1 Dimension Valley
+2 Lillie's Determination MEG 119
+1 Carmine TWM 145
+1 Iono PAL 185
+1 Teammates PRC 141
+1 Raihan EVS 152
+1 Acerola BUS 112
+1 Guzma BUS 115
+1 Tulip PAR 181
+4 Mysterious Treasure FLI 113
+4 Fog Crystal CRE 140
+3 VS Seeker PHF 109
+1 Quick Ball FST 237
+1 Hisuian Heavy Ball ASR 146
+1 Battle Compressor PHF 92
+1 Field Blower GRI 125
+1 Night Stretcher ASC 196
+1 Unfair Stamp TWM 165
+1 Float Stone BKT 137
+1 Forest Seal Stone SIT 156
+2 Sky Field ROS 89
+1 Dimension Valley PHF 93
 
 Energy: 11
-11 Psychic Energy
+11 Psychic Energy MEE 5
 
 Total Cards: 60
