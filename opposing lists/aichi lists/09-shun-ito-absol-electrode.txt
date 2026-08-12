@@ -1,0 +1,40 @@
+Pokémon: 15
+4 Unown
+1 Voltorb
+2 Electrode-GX
+1 Toedscool
+2 Toedscruel
+1 Mega Absol ex
+1 Sableye V
+1 Gengar & Mimikyu-GX
+1 Dedenne-GX
+1 Squawkabilly ex
+
+Trainer: 38
+2 Iono
+2 Guzma
+1 Plumeria
+4 Battle VIP Pass
+4 Trainers' Mail
+4 Rescue Carrier
+3 Ultra Ball
+3 Rescue Stretcher
+2 Hisuian Heavy Ball
+2 VS Seeker
+1 Battle Compressor
+1 Escape Rope
+1 Canceling Cologne
+1 Secret Box
+1 Float Stone
+1 Muscle Band
+1 Forest Seal Stone
+2 Silent Lab
+1 Path to the Peak
+1 PokéStop
+
+Energy: 7
+4 Prism Energy
+2 Darkness Energy
+1 Telepathic Psychic Energy
+
+Total Cards: 60
