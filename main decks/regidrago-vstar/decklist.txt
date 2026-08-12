@@ -1,0 +1,58 @@
+Pokémon: 21
+4 Regidrago V SIT 135
+3 Regidrago VSTAR SIT 136
+1 Dialga-GX FLI 82
+1 Dragapult ex TWM 130
+2 Mega Dragonite ex ASC 152
+2 Hisuian Goodra VSTAR LOR 136
+1 Oricorio GRI 55
+1 Minior PAR 99
+1 Goomy FLI 91
+1 Wobbuffet PHF 36
+1 Latias ex SSP 76
+1 Marshadow UNB 81
+2 Tapu Lele-GX GRI 60
+
+Trainer: 30
+1 Brilliant Blender SSP 164
+1 Team Yell's Cheer BRS 149
+1 Field Blower GRI 125
+1 Professor Burnet PR-SW SWSH167
+1 Serena SIT 164
+1 Tate & Liza CES 148
+1 VS Seeker PHF 109
+1 Klara CRE 145
+1 Guzma BUS 115
+1 Wishful Baton BUS 128
+1 Chaotic Swell CEC 187
+2 Battle VIP Pass FST 225
+2 Quick Ball SSH 179
+2 Crispin SCR 133
+2 Arven SVI 166
+4 Mysterious Treasure FLI 113
+1 Steven's Resolve CES 145
+1 Forest Seal Stone SIT 156
+1 Professor Turo's Scenario PAR 171
+1 Carmine TWM 145
+2 Gladion CIN 95
+1 Hisuian Heavy Ball ASR 146
+
+Energy: 9
+4 Basic Grass Energy SVE 1
+3 Basic Fire Energy SVE 2
+2 Double Dragon Energy ROS 97
+
+Total Cards: 60
+
+Usage:
+Regidrago VSTAR is a flexible Apex Dragon toolbox deck. The normal winning axis is to establish Regidrago V, evolve to Regidrago VSTAR, satisfy the attack's Energy requirement, place the correct Dragon attacks in the discard pile, and then convert the first meaningful attack into a decisive board or Prize advantage. Do not pilot it as a generic damage deck: attack choice is matchup- and board-dependent.
+
+The deck can use lead Pokémon before Regidrago attacks. Wobbuffet is a setup-restoration and disruption lead against Ability-heavy opposing graphs; Goomy taxes opposing attacks and can buy a full turn against one-Energy or zero-Energy lock/combo attacks. Their order matters in matchups where both are useful. Minior is an escape/attack piece, especially against trapping strategies such as Snorlax Stall. Latias ex supports pivoting when its Ability is live. These Pokémon are not automatically desirable opening Actives in every matchup; policy should compare the cost of establishing and later exiting the lead against the turns or setup access it buys.
+
+The deck should aggressively use search and discard connectors only when their costs preserve a complete route. Dragon payloads often want to reach the discard pile, but DCI is dynamic: recovery, matchup-specific lost-zone effects, required future attacks, singleton resources, ACE SPEC access, Energy, Supporter contention, and Prize knowledge can make a normally discardable card temporarily critical. Brilliant Blender and Professor Burnet are direct payload-enabling routes; Mysterious Treasure, Arven, Tapu Lele-GX, Crispin, Steven's Resolve, Forest Seal Stone, Carmine, Gladion, and other connectors compete for different setup axes and must be evaluated by the whole route rather than by raw access.
+
+Timeless-GX is frequently a conversion attack rather than just damage: the extra turn can allow a follow-up such as Trifrost, Phantom Dive, Rolling Iron, or another matchup-specific Apex Dragon attack before the opponent can recover. Against fragile setup/control boards, the policy should recognize when this sequence collapses the opponent's remaining routes. Against opposing Regidrago, preserve a credible second attacker and choose payloads based on the opponent's board, recovery, Bench, and Prize state.
+
+Against stall/control, distinguish literal game wins from dominant states. A live Regidrago VSTAR that can keep attacking plus a reachable Minior can make trapping lines extremely difficult, while a fully exposed bad Active with no switch route can lose even from a resource-rich hand. Professor Turo's Scenario, Tate & Liza, Guzma, Minior, Wobbuffet, Goomy, Latias ex, recovery cards, and Energy placement should therefore be valued by the exact opposing lock graph.
+
+The main policy objective is to win the race to the first decisive state, not merely to become technically attack-ready as fast as possible. When disruption is imminent, AMR-overriding play may justify burning normally valuable resources to establish a durable attacker or lead before the opposing lock/combo becomes live.
