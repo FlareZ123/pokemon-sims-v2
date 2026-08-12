@@ -1,42 +1,42 @@
 Pokémon: 25
-2 Oddish
-2 Gloom
-2 Vileplume
-1 Vileplume
-2 Buneary
-2 Mega Lopunny ex
-2 Pidgey
-1 Pidgeotto
-1 Pidgeotto
-2 Pidgeot ex
-2 Bunnelby
-2 Fan Rotom
-2 Budew
-1 Eldegoss V
-1 Tatsugiri
+2 Oddish UNB 5
+2 Gloom UNB 7
+2 Vileplume AOR 3
+1 Vileplume BUS 6
+2 Buneary PFL 83
+2 Mega Lopunny ex PFL 84
+2 Pidgey FLF 75
+1 Pidgeotto TEU 123
+1 Pidgeotto MEW 17
+2 Pidgeot ex OBF 164
+2 Bunnelby PRC 121
+2 Fan Rotom SCR 118
+2 Budew ASC 16
+1 Eldegoss V RCL 19
+1 Tatsugiri TWM 131
 
 Trainer: 28
-3 Guzma & Hala
-2 Guzma
-2 Karen
-1 N
-4 Tag Call
-3 Buddy-Buddy Poffin
-2 Xtransceiver
-2 Technical Machine: Evolution
-2 Stealthy Hood
-1 Float Stone
-1 Choice Belt
-2 Artazon
-1 Grand Tree
-1 Path to the Peak
-1 Silent Lab
+3 Guzma & Hala CEC 193
+2 Guzma BUS 115
+2 Karen XYP 177
+1 N FCO 105
+4 Tag Call CEC 206
+3 Buddy-Buddy Poffin TEF 144
+2 Xtransceiver NVI 96
+2 Technical Machine: Evolution PAR 178
+2 Stealthy Hood UNB 186
+1 Float Stone BKT 137
+1 Choice Belt PAL 176
+2 Artazon PAL 171
+1 Grand Tree SCR 136
+1 Path to the Peak CRE 148
+1 Silent Lab PRC 140
 
 Energy: 7
-2 Jet Energy
-2 Grass Energy
-1 Capture Energy
-1 Powerful Colorless Energy
-1 Double Colorless Energy
+2 Jet Energy PAL 190
+2 Grass Energy MEE 1
+1 Capture Energy RCL 171
+1 Powerful Colorless Energy DAA 176
+1 Double Colorless Energy SUM 136
 
 Total Cards: 60
