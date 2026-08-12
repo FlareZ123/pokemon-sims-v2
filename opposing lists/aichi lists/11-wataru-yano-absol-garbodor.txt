@@ -1,0 +1,33 @@
+Pokémon: 13
+3 Mega Absol ex
+2 Trubbish
+2 Garbodor
+2 Oranguru V
+1 Latias ex
+1 Tapu Lele-GX
+1 Crobat V
+1 Squawkabilly ex
+
+Trainer: 39
+3 Carmine
+3 Marnie
+2 Guzma
+4 Battle VIP Pass
+4 Quick Ball
+4 Professor's Letter
+3 Dark Patch
+2 Boost Shake
+1 Escape Rope
+1 Super Rod
+1 VS Seeker
+1 Secret Box
+3 Float Stone
+2 Forest Seal Stone
+1 Muscle Band
+2 Shopping Center
+2 Temple of Sinnoh
+
+Energy: 8
+8 Darkness Energy
+
+Total Cards: 60
