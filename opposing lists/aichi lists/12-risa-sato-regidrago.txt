@@ -1,0 +1,42 @@
+Pokémon: 20
+4 Regidrago V
+3 Regidrago VSTAR
+2 Dialga-GX
+1 Dragapult ex
+1 Noivern ex
+1 Koraidon ex
+1 Kyurem
+1 Dedenne-GX
+1 Crobat V
+1 Latias ex
+1 Tapu Lele-GX
+1 Marshadow
+1 Fezandipiti ex
+1 Budew
+
+Trainer: 30
+2 Professor Sycamore
+2 Raihan
+2 Guzma
+1 Marnie
+1 Crispin
+1 Iono
+4 Mysterious Treasure
+4 Quick Ball
+3 VS Seeker
+1 Ultra Ball
+1 Hisuian Heavy Ball
+1 Super Rod
+1 Echoing Horn
+1 Megaton Blower
+1 Counter Catcher
+2 Muscle Band
+1 Path to the Peak
+1 Parallel City
+
+Energy: 10
+4 Double Dragon Energy
+4 Grass Energy
+2 Fire Energy
+
+Total Cards: 60
