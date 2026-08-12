@@ -1,33 +1,33 @@
 Pokémon: 13
-3 Mega Absol ex
-2 Trubbish
-2 Garbodor
-2 Oranguru V
-1 Latias ex
-1 Tapu Lele-GX
-1 Crobat V
-1 Squawkabilly ex
+3 Mega Absol ex MEG 86
+2 Trubbish FST 168
+2 Garbodor BKP 57
+2 Oranguru V ASR 133
+1 Latias ex SSP 76
+1 Tapu Lele-GX GRI 60
+1 Crobat V DAA 104
+1 Squawkabilly ex PAL 169
 
 Trainer: 39
-3 Carmine
-3 Marnie
-2 Guzma
-4 Battle VIP Pass
-4 Quick Ball
-4 Professor's Letter
-3 Dark Patch
-2 Boost Shake
-1 Escape Rope
-1 Super Rod
-1 VS Seeker
-1 Secret Box
-3 Float Stone
-2 Forest Seal Stone
-1 Muscle Band
-2 Shopping Center
-2 Temple of Sinnoh
+3 Carmine TWM 145
+3 Marnie SSH 169
+2 Guzma BUS 115
+4 Battle VIP Pass FST 225
+4 Quick Ball FST 237
+4 Professor's Letter BKT 146
+3 Dark Patch ASR 139
+2 Boost Shake EVS 142
+1 Escape Rope BST 125
+1 Super Rod PAL 188
+1 VS Seeker PHF 109
+1 Secret Box TWM 163
+3 Float Stone BKT 137
+2 Forest Seal Stone SIT 156
+1 Muscle Band XY 121
+2 Shopping Center EVS 157
+2 Temple of Sinnoh ASR 155
 
 Energy: 8
-8 Darkness Energy
+8 Darkness Energy MEE 7
 
 Total Cards: 60
