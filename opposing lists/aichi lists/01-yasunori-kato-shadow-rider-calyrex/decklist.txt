@@ -38,3 +38,21 @@ Energy: 11
 11 Psychic Energy MEE 5
 
 Total Cards: 60
+
+Usage:
+This is the CL Aichi 2026 winning Shadow Rider Calyrex list. Treat it as a disruptive Psychic toolbox/hand-control deck, not as a simple Max Geist damage race. Its board engine is Shadow Rider Calyrex VMAX: establish multiple VMAX where possible, use Underworld Door to accelerate Psychic Energy and draw, and let the growing Energy board support whichever attacker or control line is best for the matchup.
+
+The list is unusually comfortable going first. Radiant Eternatus is a first-turn board-development route that can establish VMAX bodies immediately; the Aichi metagame review specifically notes that the winning list was optimized for going first and omitted the slower Chimecho lead used by many other Shadow Rider builds. Do not force Radiant Eternatus when Bench constraints or the actual hand make a conventional Shadow Rider setup stronger.
+
+The classic control conversion is Unfair Stamp after the opponent takes a Knock Out, followed by Trevenant & Dusknoir-GX's Night Watch to remove cards from the opponent's reduced hand. Once the opponent is constrained, repeated Night Watch or another disruptive attack can keep the game compressed while Underworld Door continues building resources. Direct Prize racing with Shadow Rider or Lillie's Clefairy ex is a secondary conversion when the board says racing is safer than extending the hand lock.
+
+Against Regidrago, this exact list contains a deliberately unusual anti-Dragon package: Lillie's Clefairy ex changes opposing Dragon Weakness to Psychic, while Mimikyu GRI can use Copycat after an opposing non-GX attack. In particular, after Regidrago VSTAR uses Apex Dragon, Copycat can reproduce Apex Dragon from the Shadow Rider side and access this deck's own discarded Dragon payload such as Dialga-GX. This is a matchup-specific line and must be rules-validated in the engine rather than represented as a generic damage bonus. Girafarig can permanently remove key discard-pile resources when that matters.
+
+Mysterious Treasure and Fog Crystal make the Pokémon/Energy graph unusually dense, but Bench space is a real resource: Shadow Rider VMAX wants multiple board slots, while Tapu Lele-GX, Radiant Eternatus, Clefairy, Trevenant & Dusknoir-GX, Mimikyu, Latias ex, Girafarig, and Marshadow are all situational occupants. The brain should avoid filling Sky Field-sized benches blindly when the opponent can replace the Stadium or punish liabilities.
+
+Primary objective: buy or manufacture enough uncontested development time to establish the Psychic engine, then convert through hand denial or a favorable attacker rather than trying to out-speed Regidrago from a cold start.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/shadow-rider
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://note.com/yasunori_1028/n/n8eca50402c65

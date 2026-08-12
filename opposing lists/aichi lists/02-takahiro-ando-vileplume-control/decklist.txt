@@ -43,3 +43,22 @@ Energy: 6
 1 Grass Energy MEE 1
 
 Total Cards: 60
+
+Usage:
+This is Takahiro Ando's CL Aichi 2026 runner-up Evo Vileplume / Stoutland control list. Its primary objective is not to take six Prizes quickly. It wants to establish a board where Vileplume AOR removes Items, Stoutland BCR is Active to remove Supporters, and the opponent's Active Pokémon is prevented from retreating by repeatedly using Lillipup's Baby-Doll Eyes through Stoutland. Once a non-attacking or otherwise useless Pokémon is stranded, the deck can maintain the lock and win by deck-out/resource exhaustion.
+
+The core ALS is the turn-1-going-second Evolution setup. Guzma & Hala is the central connector and Tag Call exists largely to maximize access to it. Guzma & Hala can assemble Technical Machine: Evolution plus Artazon and the appropriate Special Energy. Capture Energy and Artazon place the required Basics; Fan Rotom helps locate Bunnelby/Pidgey pieces. Bunnelby PRC's Omega Barrage lets it attack twice, so TM Evolution can advance two evolution chains twice in the same turn: Oddish -> Gloom -> Vileplume and Pidgey -> Pidgeotto -> Pidgeot ex. The ideal result is immediate Item lock plus Pidgeot ex Quick Search before the opponent gets a normal Item-enabled turn.
+
+Jet Energy is especially important when Bunnelby is not already Active because it can both satisfy the Energy axis and move the correct attacker Active. Capture Energy instead helps fill missing Basic Pokémon when Active positioning is already solved. The brain should choose between them based on the actual opening rather than treating all Guzma & Hala searches as fixed.
+
+After the first-turn board, Pidgeot ex supplies deterministic access to the exact Supporter or control piece needed each turn. The Stoutland lock is then assembled. Memory Energy on Stoutland allows it to use attacks from its previous Evolutions; Relicanth TEF is an alternate way to enable attacks from previous Evolutions. This matters because Lillipup CEC's Baby-Doll Eyes is the retreat-denial attack. With Vileplume preventing Items and Active Stoutland preventing Supporters, repeated Baby-Doll Eyes can remove the usual Guzma/Escape Rope-style exits and produce a near-checkmate against an Active Pokémon that cannot meaningfully attack Stoutland.
+
+Stealthy Hood is strategically important because Ability suppression such as Wobbuffet or Garbodor can otherwise turn off Irritating Pollen and Quick Search. The brain should preserve Hood when the opponent shows those counters instead of treating excess Tools as generic discard fodder. Budew can buy setup time with Item denial; Girafarig can Lost Zone critical discard resources; Mr. Mime and Jirachi are matchup tools. Bunnelby remains relevant after setup through Burrow/Rototiller-style deck and resource control when applicable.
+
+Do not declare the lock won merely because Vileplume + Stoutland exists. The policy must inspect the trapped Active and all live non-Item/non-Supporter escape routes such as Energy-based switching, Abilities that remain live, Stadium interactions, or attacks that can remove Stoutland. If the opponent can still escape, continue tightening the board rather than blindly repeating Baby-Doll Eyes.
+
+Primary objective: execute the fast Vileplume/Pidgeot ALS when legal, then transition into the Stoutland + Baby-Doll Eyes retreat lock against the weakest opposing Active and preserve the lock until deck-out or a validated forced state.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/evo-vileplume
+https://note.com/quick_garlic8250/n/n3f1b573b253a

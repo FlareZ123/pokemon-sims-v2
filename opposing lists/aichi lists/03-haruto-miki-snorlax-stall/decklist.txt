@@ -43,3 +43,26 @@ Energy: 5
 2 Water Energy MEE 3
 
 Total Cards: 60
+
+Usage:
+This is Haruto Miki's 3rd-place CL Aichi 2026 Snorlax Stall list. It is a resource-denial/trapping deck and must not be piloted as a conventional attacking deck. The normal win condition is to make the opponent run out of usable resources or cards after stranding an Active Pokémon that cannot attack effectively or cannot escape Snorlax's Block. Prize taking is incidental unless a specific wall/utility attack is the safest route.
+
+The primary control loop combines Snorlax trapping with repeated Energy denial and Supporter recursion. Plumeria, Team Flare Grunt, Enhanced Hammer, Faba and related disruption remove or invalidate Energy and Special Energy; Lusamine and VS Seeker extend Supporter access; Team Rocket's Handiwork can directly advance deck-out. Counter Catcher/Guzma are used to select liabilities when legal. The policy should value a trap by whether it is sustainable after the opponent's best escape, not merely by whether Block is currently Active.
+
+Mimikyu PAL is a Safeguard wall against Pokémon ex and Pokémon V and should be used when it converts the matchup into an attacker problem the opponent cannot solve cheaply. Galarian Stunfisk's Snap Trap punishes attacks into it by discarding Energy from the attacker, reinforcing the deck's Energy-exhaustion plan. Girafarig can permanently remove key discard-pile resources. Bunnelby provides a one-Prize mill/recycling axis when its attacks are useful.
+
+Articuno-GX is an emergency reset against a powered attacker. Legendary Ascent can move Water Energy onto Articuno-GX as it becomes Active, and Cold Crush-GX costs a single Water Energy and discards all Energy from both Active Pokémon. Use this when sacrificing Articuno's Energy materially destroys the opponent's attack graph or creates a retrappable board; do not spend the GX attack just because it is available.
+
+Regirock XYP is primarily an Omega Barrier wall in this exact list. Its Ancient Trait protects it from many Trainer effects directed at it, which can make it difficult to manipulate with the opponent's normal Trainer-based switching/gust tools. Although Regirock has Land Maker, that attack costs Fighting Energy and this exact 60 contains only Capture Energy and Water Energy. Therefore the normal brain must NOT assume a repeatable Land Maker Stadium-recursion line unless some actual in-game effect has made the Fighting cost payable. This distinction is list-specific and important.
+
+Rotom V is primarily setup/draw utility rather than a damage plan. Arven, Nest Ball, Quick Ball, Hisuian Heavy Ball, Forest Seal Stone, Scoop Up Cyclone, Float Stone, Stealthy Hood, Tool Jammer and the Stadium package should be used to assemble and preserve whichever wall/trap loop best attacks the opponent's remaining escape resources.
+
+Against Regidrago specifically, prioritize preventing a durable attacking board: trap non-attackers when possible, deny exposed Energy, and repeatedly force the Regidrago player to spend finite switch/recovery resources. If Regidrago establishes an Active attack-capable VSTAR plus a live Minior or another repeatable non-Trainer breakout, reassess the trap rather than treating Snorlax Active as automatically winning.
+
+Primary objective: establish a sustainable trap or wall, exhaust Energy and escape resources faster than the opponent can rebuild them, and only then convert to deck-out or another forced terminal state.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/snorlax-stall
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://limitlesstcg.com/decks/259
+https://limitlesstcg.com/cards/xyp/49
