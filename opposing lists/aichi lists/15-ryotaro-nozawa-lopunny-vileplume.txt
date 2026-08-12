@@ -1,0 +1,42 @@
+Pokémon: 25
+2 Oddish
+2 Gloom
+2 Vileplume
+1 Vileplume
+2 Buneary
+2 Mega Lopunny ex
+2 Pidgey
+1 Pidgeotto
+1 Pidgeotto
+2 Pidgeot ex
+2 Bunnelby
+2 Fan Rotom
+2 Budew
+1 Eldegoss V
+1 Tatsugiri
+
+Trainer: 28
+3 Guzma & Hala
+2 Guzma
+2 Karen
+1 N
+4 Tag Call
+3 Buddy-Buddy Poffin
+2 Xtransceiver
+2 Technical Machine: Evolution
+2 Stealthy Hood
+1 Float Stone
+1 Choice Belt
+2 Artazon
+1 Grand Tree
+1 Path to the Peak
+1 Silent Lab
+
+Energy: 7
+2 Jet Energy
+2 Grass Energy
+1 Capture Energy
+1 Powerful Colorless Energy
+1 Double Colorless Energy
+
+Total Cards: 60
