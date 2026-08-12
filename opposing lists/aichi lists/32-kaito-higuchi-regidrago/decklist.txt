@@ -44,3 +44,27 @@ Energy: 10
 2 Fire Energy MEE 2
 
 Total Cards: 60
+
+Usage:
+This is Kaito Higuchi's top-32 CL Aichi 2026 Regidrago VSTAR list. It is a four-DDE Apex Dragon toolbox with two Budew leads, Hisuian Goodra VSTAR, Mega Dragonite ex, Pokémon Ranger, Stealthy Hood and Silent Lab. Dowsing Machine's Aichi results identify this exact placement as the Regidrago build with Megaton Blower, Goodra and Stealthy Hood, so the brain should treat counter-counterplay against locks as a deliberate part of the list rather than generic filler.
+
+The core setup uses Quick Ball, Mysterious Treasure and Ultra Ball plus Dedenne-GX, Crobat V, Tapu Lele-GX and Fezandipiti ex to establish Regidrago VSTAR and put the matchup-relevant Dragon payloads into the discard. Battle Compressor provides direct payload placement. Four Double Dragon Energy are the fastest attack connector; Crispin and Raihan supply basic-Energy acceleration/recovery when DDE is unavailable, prized or disabled. Because the deck has four Regidrago V and three VSTAR, the brain should preserve a credible second attacker in mirrors and control matchups instead of consuming every evolution/attachment on the first body.
+
+Two Budew make Itchy Pollen a deliberate opening line. A zero-Energy Item-lock attack can buy a full setup turn against decks whose ALS requires Balls, Battle Compressor, TM Evolution or other Items. The brain should compare that tempo to Budew's Prize liability and the cost of moving it out of the Active. Against an opponent whose setup is largely Item-independent, forcing Budew can simply lose the race.
+
+Hisuian Goodra VSTAR is the defensive conversion payload. Rolling Iron reduces damage taken on the following opponent turn and can break the normal Timeless-GX into immediate follow-up knockout sequence when the opponent lacks the correct effect-removal answer. The 2026 Aichi review specifically notes that Goodra returned because many Regidrago players had cut Pokémon Ranger. This exact list itself retains Pokémon Ranger, so it has a counter-tool against eligible attack effects and player/Pokémon effects that other Regidrago builds may be forced to respect for an extra turn. The shared rules engine must decide exactly which effects Ranger can remove; the brain only decides when spending the Supporter on that removal is worth more than another Supporter action.
+
+Mega Dragonite ex's Ryuno Glide is the raw knockout payload at 330 damage, followed by discarding two Energy from the attacker. When copied by Apex Dragon, Regidrago pays that discard cost, so use 330 when it produces a knockout whose value exceeds the rebuild cost. Dialga-GX provides Timeless-GX and its extra turn; Dragapult ex and Kyurem provide spread/board collapse; Noivern ex supplies matchup-specific protection and control. Attack choice should be driven by surviving opponent routes rather than maximum printed damage.
+
+Stealthy Hood is a deliberate counter-countermeasure against opposing Ability-based effects that would otherwise interfere with the attached Pokémon. Preserve it in matchups where protecting Regidrago or a critical support Pokémon from an opposing Ability is required for the setup/attack graph, and let the shared card/rules layer resolve the exact interaction rather than hardcoding archetype exceptions in this brain. Megaton Blower is similarly high-discrete-value Tool/Stadium removal and should be spent when that board reset opens a decisive route.
+
+Silent Lab is a Basic-Pokémon Ability-suppression Stadium and should be sequenced only after extracting whichever of this deck's own Basic Abilities are still required. Dedenne-GX, Crobat V, Tapu Lele-GX, Fezandipiti ex and Latias ex can all make the timing nontrivial depending on the exact printed interaction. Parallel City can restrict the opponent's Bench or remove consumed support liabilities. Counter Catcher can convert a sacrificed Budew or an early Prize deficit into a gust without consuming the Supporter slot; Guzma remains the general gust/switch option.
+
+Fezandipiti ex is strongest after a Knock Out through its comeback draw Ability, so the brain should avoid exposing it early when the opponent can simply gust it for two Prizes before that recovery value exists. Latias ex is a pivot node and should be valued more highly when Budew or another support Pokémon must leave the Active without consuming scarce switch resources.
+
+Primary objective: use Budew only when it wins a real tempo exchange, establish Apex Dragon with four-DDE efficiency, and preserve enough counter-counterplay through Goodra, Ranger, Stealthy Hood, Megaton Blower and Stadium control that the opponent cannot convert its lock or mirror attack before Regidrago's next decisive attack.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/regidrago
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league

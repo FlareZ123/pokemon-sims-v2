@@ -36,3 +36,25 @@ Energy: 5
 2 Psychic Energy MEE 5
 
 Total Cards: 60
+
+Usage:
+This is Yuhi Yokoyama's top-32 CL Aichi 2026 Chimecho / Dusknoir deck. It is a damage-counter combo/control deck built from four mutually reinforcing engines: Chimecho buys setup time, Roxie + Koffing spreads counters while drawing, PRE Dusclops/Dusknoir convert themselves into large targeted counter bursts, and BCR Dusknoir/Radiant Alakazam redistribute counters to engineer exact Knock Outs. Do not pilot it as a normal Psychic attack deck.
+
+Chimecho CIN is the opening lock piece. Bell of Silence costs one Psychic, does 10, and prevents the opponent from playing any Pokémon with an Ability from hand during their next turn. This can stop Ability-bearing evolutions as well as Basic support Pokémon, delaying engines such as Regidrago VSTAR evolution/Legacy Star, Dedenne-GX/Crobat V and many other setup pieces. Against decks that need those Pokémon immediately, the one attack can buy the full turn required to assemble the damage engine. If the opposing Active Goomy adds an extra Colorless to attack costs, the brain must recognize that the normal one-Psychic Bell line is no longer available without additional acceleration.
+
+Roxie + Koffing is both draw and spread. Roxie may discard up to two non-GX/non-old-EX Pokémon from hand and draws three cards for each. When Koffing CEC is discarded by Roxie's effect, Blow-Away Bomb places one damage counter on every opposing Pokémon. With multiple Koffing, this simultaneously refreshes the hand and seeds the entire opposing board for later counter movement. Do not discard Koffing through an unrelated effect when preserving it for Roxie creates materially more value.
+
+PRE Dusclops and Dusknoir are the main burst pieces. Dusclops's Cursed Blast places 5 damage counters on one opposing Pokémon and Knocks Out itself; Dusknoir's Cursed Blast places 13 and Knocks Out itself. These self-KOs intentionally give the opponent Prizes, which can be advantageous because they enable comeback cards and reduce Bloodmoon Ursaluna ex's Blood Moon attack cost through Seasoned Skill. The brain should treat the Prize donation as a combo cost and only fire a bomb when the resulting counter placement/Prize state advances a forced line.
+
+Dusknoir BCR is the counter-routing engine. Sinister Hand can move one damage counter from one opposing Pokémon to another as often as desired during the turn. Radiant Alakazam provides another damage-counter movement Ability. Together, they let the policy consolidate Roxie spread and Cursed Blast counters onto the exact Pokémon needed for multi-KO turns. This is a combinatorics-heavy part of the brain: optimize the whole resulting Prize map rather than greedily KOing the first available target.
+
+The evolution graph can be accelerated by Rare Candy and Grand Tree, while Duskull PRE can recover Duskull from discard through its attack when needed. Rescue Stretcher/Carrier recycle Pokémon pieces; Town Map and Heavy Ball reduce Prize uncertainty; Fog Crystal/Telepathic Psychic Energy set up the Psychic Basics and Energy. The Unown + Rescue Carrier engine supplies lock-resistant draw, and Telepathic Psychic Energy can bench Psychic Basics before Unown cycles itself.
+
+Gengar & Mimikyu-GX adds the Horror House-GX control turn. A hand-freeze turn can be used to assemble Dusknoir lines and then resolve multiple counter effects before the opponent can respond. Bloodmoon Ursaluna ex is the late-game direct attacker once intentional/ordinary Prize losses reduce Blood Moon's Colorless cost. Latias ex provides free-retreat support for the all-Basic utility pieces when its Ability is live.
+
+Primary objective: use Bell of Silence or Horror House to buy setup time, seed damage through Roxie/Koffing, convert Dusknoir-line Pokémon into precise counter bursts, and route those counters with Sinister Hand/Radiant Alakazam so multiple opposing setup or Prize Pokémon collapse in the same protected window.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/dusknoir-spread
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
