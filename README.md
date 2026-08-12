@@ -1,8 +1,8 @@
 # Pokémon Sims v2
 
-A two-player Pokémon TCG **paper Expanded** simulator intended to play complete games between selected main decks and real opposing decklists, then measure matchup win rates by seat order.
+A two-player Pokémon TCG **paper Expanded** simulator for playing complete games between exact decklists and measuring matchup win rates by seat order.
 
-The project is deliberately organized around a small rules core, deck-specific strategy modules, exact decklist inputs, reproducible Monte Carlo trials, and strict reporting contracts. The problem has a large combinatorial search space, so architecture should make correctness easy to audit while keeping expensive reasoning localized.
+The project is organized around a small rules core, exact deck packages, deck-local strategic brains, reusable policy helpers, reproducible Monte Carlo trials, and strict reporting contracts. Expanded has an enormous combinatorial action space; the architecture exists to keep rules objective, strategy auditable, and expensive reasoning localized.
 
 ## Authoritative project contracts
 
@@ -11,66 +11,110 @@ Read these before changing simulator behavior:
 1. [`EXPECTED_RESULT_MANIFEST.md`](EXPECTED_RESULT_MANIFEST.md) defines the required end result and output schema. **Do not edit it.**
 2. [`official documentation/EN_advanced_manual-2025-transcription-structured.md`](official%20documentation/EN_advanced_manual-2025-transcription-structured.md) is the first rules reference for implemented game mechanics.
 3. [`official documentation/compendium-ruling-guidance`](official%20documentation/compendium-ruling-guidance) explains when to use the Pokémon TCG Compendium for interaction-specific rulings.
-4. For agents: your local environment should have: `tcg-data-master`, this is the card-data source for exact card text and printing data during development. Card behavior should be tied to exact printings rather than inferred from a card name.
+4. For agents: the local environment should contain `tcg-data-master`, which is the card-data source for exact card text and printing data during development. Card behavior should be tied to exact printings rather than inferred from a card name.
 
-Rules-based code should carry a direct authoritative rules, ruling, or card-data URL beside the relevant implementation when practical. Strategic policy and rules legality must stay separate.
+Rules-sensitive code should carry a direct authoritative rules, ruling, or card-data URL beside the relevant implementation when practical. Strategic policy and rules legality must remain separate.
 
 ## Required result
 
-For every deck file in `main decks/`, recursively discover every deck file under `opposing lists/` and simulate the complete matchup.
+Every directory directly representing a deck under `main decks/` is a **main deck package**. Every deck package found recursively under `opposing lists/` is an independent opposing list.
 
-Each main-deck/opposing-list pairing runs:
+For every:
 
-- 1,000 games with the main deck going first
-- 1,000 games with the main deck going second
+```text
+main deck package × opposing deck package
+```
 
-The required primary report is one vertical matchup matrix per main deck containing the first-seat win rate, second-seat win rate, combined win rate, and trial count for every opposing list. The exact schema and examples live in [`EXPECTED_RESULT_MANIFEST.md`](EXPECTED_RESULT_MANIFEST.md).
+the simulator runs:
 
-Every trial represents one complete game. Item lock, Ability lock, Supporter lock, lead Pokémon, setup races, disruption, recovery, alternate routes, prizing, and matchup-specific interactions should arise from the real simulated board. Separate synthetic lock-only simulations are outside the primary result contract.
+- **1,000 complete games with the main deck going first**
+- **1,000 complete games with the main deck going second**
 
-Detailed diagnostics are encouraged. Useful fields include decisive turn, win condition, lead sequence, lock establishment, failed route, recovery route, reason for loss, major policy decisions, and adjudication reason. These fields supplement the required win-rate matrix.
+The required primary report is one vertically oriented matchup matrix per main deck containing the first-seat win rate, second-seat win rate, combined win rate, and trial count for every exact opposing package. The exact schema and examples live in [`EXPECTED_RESULT_MANIFEST.md`](EXPECTED_RESULT_MANIFEST.md). Where that manifest refers to a deck file, the canonical decklist for a package is its `decklist.txt`.
 
-## Repository inputs
+Every trial is a complete matchup simulation. Item lock, Ability lock, Supporter lock, lead Pokémon, setup races, disruption, recovery, alternate routes, prizing, and matchup-specific interactions arise from the actual simulated board. They are not separate lock-only statistical scenarios.
+
+Detailed diagnostics are encouraged. Useful fields include decisive turn, win condition, lead sequence, lock establishment, failed route, recovery route, reason for loss, major policy decisions, and adjudication reason. These supplement the required win-rate matrix rather than replacing it.
+
+## Repository layout
 
 ```text
 pokemon-sims-v2/
 ├── EXPECTED_RESULT_MANIFEST.md
 ├── README.md
+│
 ├── main decks/
-│   └── regidrago-vstar.txt
+│   └── regidrago-vstar/
+│       ├── decklist.txt
+│       ├── brain.cpp
+│       └── ... optional deck-local .cpp/.hpp helpers
+│
 ├── opposing lists/
 │   └── aichi lists/
+│       ├── 01-yasunori-kato-shadow-rider-calyrex/
+│       │   ├── decklist.txt
+│       │   ├── brain.cpp
+│       │   └── ... optional deck-local helpers
+│       ├── 02-takahiro-ando-vileplume-control/
+│       │   ├── decklist.txt
+│       │   └── brain.cpp
 │       └── ...
+│
 ├── future decks/
 │   └── README
+│
 └── official documentation/
     ├── EN_advanced_manual-2025-transcription-structured.md
     └── compendium-ruling-guidance
 ```
 
+A **deck package** is a directory containing the canonical pair:
+
+```text
+decklist.txt
+brain.cpp
+```
+
+Additional files may live beside them. A package can have helper `.cpp`/`.hpp` files, local tests, notes, or data if useful. `brain.cpp` is simply the strategic entry point for that exact list.
+
 ### `main decks/`
 
-Active decks whose matchup matrices are being measured. A newly added file here automatically becomes another main-deck simulation target.
+Contains active decks whose matchup matrices are being measured. Each deck package here receives its own independent result matrix.
 
 ### `opposing lists/`
 
-Every deck file anywhere below this directory is an independent opponent. Subdirectories are organizational. Tournament provenance, archetype, player, and exact list may differ between files.
+Contains independent opponent packages. Discovery is recursive, so organizational directories such as `aichi lists/` do not change semantics.
 
-Do not merge similar lists into one abstract opponent. Small list differences can change opening lines, recovery, lock timing, and matchup outcomes.
+Do not merge similar lists into one abstract opponent. Small changes in counts, ACE SPECs, Energy, leads, recovery, or lock pieces can change ALS routes and matchup outcomes.
 
 ### `future decks/`
 
-Quarantined inputs. Leave this directory alone unless the project owner explicitly moves a deck into the active simulation set. Its local README is authoritative for that folder.
+Quarantined inputs. Leave this directory alone unless the project owner explicitly promotes a deck into the active simulation set. Its local README is authoritative for that folder.
 
 ### `official documentation/`
 
-Local rules references. Use the advanced manual first. Consult the Compendium when the manual does not resolve a specific interaction cleanly.
+Local rules references. Use the advanced manual first. Consult the Compendium when the manual does not resolve an interaction cleanly.
 
-## Decklist format and `Usage:` addendum
+## Deck package contract
 
-Deck files in `main decks/`, `opposing lists/`, and eventually promoted decks use the **Pokémon TCG Live deck import/export text format** as the machine-readable decklist portion. The simulator should accept the same basic structure produced by PTCGL: section headers such as `Pokémon:`, `Trainer:`, and `Energy:`, followed by quantity + card name + set code + collector number lines, and ending with `Total Cards: 60`.
+The package path is the stable identity used by discovery, reporting, replay, and debugging.
 
-A normal deck file therefore looks like:
+For example:
+
+```text
+main decks/regidrago-vstar
+opposing lists/aichi lists/02-takahiro-ando-vileplume-control
+```
+
+The simulator resolves the package's `decklist.txt` for its exact 60 cards and `brain.cpp` for its deck-local policy entry point.
+
+A directory is an active deck package only when it satisfies the expected package contract. Do not recursively treat every `.cpp` or `.txt` file as another deck. Missing `decklist.txt` or `brain.cpp` should be a visible configuration error, not silently ignored during a production run.
+
+Package discovery must exclude `future decks/`.
+
+## `decklist.txt`: PTCGL format plus `Usage:`
+
+Every `decklist.txt` uses the **Pokémon TCG Live deck import/export text format** as its machine-readable card-list portion:
 
 ```text
 Pokémon: 2
@@ -86,66 +130,134 @@ Energy: 8
 Total Cards: 60
 ```
 
-The repository extends that format with one optional, human-readable strategy appendix. Exactly two newline characters after the completed `Total Cards: 60` line may begin:
+Card lines preserve quantity, card name, set code, and collector number so the simulator can resolve the exact printing.
+
+The repository extends that format with an optional strategy appendix. Exactly two newline characters after the completed `Total Cards: 60` line may begin:
 
 ```text
 Usage:
-<text>
+<any amount of text>
 ```
 
-In raw form, the boundary is:
+The raw boundary is:
 
 ```text
 Total Cards: 60\n\nUsage:\n...
 ```
 
-Everything from the `Usage:` marker through end-of-file is **commentary, not deck data**. The deck parser must stop processing card-list data at that boundary and must not interpret, validate as cards, count, or execute anything in the Usage body. Any amount of text is allowed after `Usage:`, including multiple paragraphs, blank lines, punctuation, card names, example lines that resemble PTCGL entries, matchup notes, or other free-form prose.
+Everything from `Usage:` through end-of-file is **commentary, not deck data**.
 
-`Usage:` is optional. A normal PTCGL import that ends at `Total Cards: 60` remains valid and represents the same deck as an otherwise identical file with a Usage appendix. The appendix never changes the 60-card contents.
+The deck parser must stop card parsing at that boundary. It must not count, validate as cards, execute, or otherwise interpret anything in the Usage body. Usage may contain arbitrary prose, blank lines, card names, URLs, matchup notes, or lines that resemble PTCGL entries.
 
-The purpose of `Usage:` is to give agents and policy authors high-level context about how the exact list intends to play. It can describe an archetype's normal game plan, ALS/opening sequences, control objectives, lead Pokémon priorities, important recovery loops, matchup-specific goals, or traps that a generic card-by-card evaluator could misunderstand. For example, a Snorlax Stall list should explain that its primary plan is to trap and exhaust the opponent rather than behave like an attacking deck; piloting the same 60 cards under the wrong strategic objective can make an otherwise accurate rules simulation meaningless.
+A stock PTCGL export ending at `Total Cards: 60` remains valid. Adding or editing Usage never changes the parsed 60-card deck.
 
-A Usage appendix is **guidance, not rules text and not a hardcoded move script**. Agents should use it to understand the deck and then implement or improve the appropriate policy module. The runtime deck parser should ignore it. If future tooling exposes Usage text to development tools, it must remain separate from the parsed card list and must not silently override game rules, hidden information, or legal-action generation.
+### What `Usage:` is for
 
-Example:
+Usage exists so agents and policy authors understand what the exact 60 is trying to do before implementing its brain.
 
-```text
-Pokémon: 11
-3 Snorlax PGO 55
-...
+It can document:
 
-Trainer: 44
-4 Plumeria BUS 120
-...
+- normal game plan and win condition
+- archetype-line-specifics (ALS)
+- going-first / going-second opening sequences
+- lead Pokémon priorities
+- setup races and lock objectives
+- resource recursion loops
+- attacker roles
+- matchup-specific conversion lines
+- known traps where a generic card evaluator would choose the wrong objective
+- research URLs used to reconstruct the strategy
 
-Energy: 5
-3 Capture Energy RCL 171
-2 Water Energy MEE 3
+For example, a Snorlax Stall package should make clear that the primary objective is trapping, Energy denial, recursion, and deck-out/resource exhaustion. A brain that instead optimizes the same 60 cards for damage would produce meaningless matchup data even if every card rule were implemented perfectly.
 
-Total Cards: 60
+Usage is guidance, not rules text and not a hardcoded move script. Humans and agents use it to build and audit `brain.cpp`. The production deck parser ignores it.
 
-Usage:
-This is a stall/control deck. Its primary objective is to strand an opposing Pokémon
-that cannot attack effectively, maintain Block/retrap pressure, recur Supporters, and
-remove Energy or escape resources. Do not evaluate the deck as though its main goal
-were to race for damage with Snorlax.
+If tooling exposes Usage metadata separately, it must never override legal-action generation, card text, hidden-information boundaries, or game rules.
 
-Additional lines and matchup notes are allowed here. None of this text is part of the
-60-card decklist.
-```
+### Parser tests
 
-Parser tests should explicitly verify that:
+Parser tests should verify that:
 
 - a stock PTCGL export ending at `Total Cards: 60` parses normally;
-- the same export plus `\n\nUsage:\n...` produces exactly the same 60 parsed cards;
-- arbitrary multiline Usage text is ignored by the deck parser;
-- card-looking lines inside Usage do not add cards or alter counts;
-- malformed deck data before `Total Cards: 60` is not excused by a Usage appendix;
-- deck identity, hashing, and simulation pairing should be based on the parsed cardlist/path as designed, not accidentally changed by commentary text unless a separate explicit metadata hash is desired for tooling.
+- the same export plus `\n\nUsage:\n...` produces the same 60 parsed cards;
+- arbitrary multiline Usage is ignored by the card parser;
+- card-looking lines inside Usage do not add cards;
+- malformed deck data before `Total Cards: 60` remains an error;
+- exact printing information survives parsing;
+- Usage-only edits do not accidentally alter the parsed deck identity.
 
-## Target source architecture
+## `brain.cpp`: deck-local strategy entry point
 
-The source tree should grow toward the following boundaries. These directories are architectural targets, so create them only as implementation work reaches them.
+Every active deck package has a `brain.cpp`.
+
+`brain.cpp` is the **main strategic entry point for that exact decklist**. The simulator uses it to decide what the deck should do next given the legal information and legal actions available in the current game.
+
+Conceptually, a brain behaves like:
+
+```cpp
+Action choose_action(
+    const PlayerView& self,
+    const OpponentPublicView& opponent,
+    const LegalActions& actions,
+    const MatchContext& context);
+```
+
+The concrete interface may evolve, but the ownership boundary should not.
+
+A brain may:
+
+- evaluate the deck's ALS and current route;
+- choose opening Active/Bench Pokémon;
+- compute dynamic DCI and AMR;
+- account for K0/K1 knowledge;
+- value lead Pokémon and ordered lead sequences;
+- resolve Supporter and connector contention;
+- choose search targets, discard costs, gust targets, attacks, retreats, and recovery;
+- compare matchup-specific objectives;
+- use shared policy helpers;
+- use bounded local projection for a genuinely important decision;
+- delegate to sibling deck-local `.cpp/.hpp` modules.
+
+A brain may **not**:
+
+- invent legal actions;
+- bypass card costs;
+- implement generic game rules;
+- read unknown opposing hand/deck/Prize information;
+- treat engine-omniscient debug information as player knowledge;
+- hardcode a synthetic lock that should instead emerge from actual card effects;
+- declare a matchup win solely because a strategic position "feels winning."
+
+The rules engine provides legal actions and resolves their consequences. The brain chooses among them.
+
+### Deck-local vs shared strategy
+
+Exact-list strategy belongs in the deck package. Reusable strategic machinery belongs under shared source modules.
+
+For example:
+
+```text
+src/policy/common/
+  route_analysis.*
+  state_evaluation.*
+  local_projection.*
+  dci.*
+  amr.*
+
+src/policy/archetypes/
+  regidrago_common.*
+  snorlax_common.*
+  iron_thorns_common.*
+  ...
+```
+
+A Regidrago tournament list can call shared Regidrago helpers while its own `brain.cpp` handles its exact Budew count, Goodra/Ranger package, ACE SPEC, lead ordering, or Echoing Horn line.
+
+Do not copy hundreds of lines of identical archetype logic into every package when a shared helper can express the common behavior. Conversely, do not force all lists with the same archetype label through one brain when their exact 60 creates materially different ALS or win conditions.
+
+## Target shared source architecture
+
+Deck brains are colocated with deck packages. The generic simulator grows under `src/`:
 
 ```text
 src/
@@ -181,7 +293,6 @@ src/
 │   │   ├── route_analysis.*
 │   │   ├── dci.*
 │   │   └── amr.*
-│   ├── regidrago/
 │   └── archetypes/
 │
 ├── adjudication/
@@ -196,6 +307,7 @@ src/
 │
 ├── io/
 │   ├── deck_parser.*
+│   ├── deck_package.*
 │   └── card_data_adapter.*
 │
 └── reporting/
@@ -208,103 +320,153 @@ tests/
 ├── rules/
 ├── cards/
 ├── policy/
+├── packages/
 ├── matchups/
 └── reporting/
 ```
 
-The exact filenames may evolve. The module boundaries are more important than the spelling of a directory.
+Exact filenames may evolve. The ownership boundaries are more important than directory spelling.
 
 ## Architectural rules
 
 ### The engine owns game mechanics
 
-The rules layer should know how a legal Pokémon TCG game changes state. It owns turn sequencing, legal-action generation, costs, zones, evolution timing, Energy attachment, Retreat, attacks, damage, Knock Outs, Prize taking, Special Conditions, continuous effects, and other objective rules.
+The rules layer knows how a legal Pokémon TCG game changes state.
 
-The engine should not know that Regidrago wants a Dragon payload in the discard pile or that a Vileplume list wants a Bunnelby + TM Evolution opening. Those are strategic facts and belong in policy modules.
+It owns turn sequencing, legal-action generation, costs, zones, evolution timing, Energy attachment, Retreat, attacks, damage, Knock Outs, Prize taking, Special Conditions, continuous effects, and objective victory rules.
 
-Avoid generic engine branches keyed to archetype names. If a board interaction can be expressed through actual card effects and current state, model the interaction there.
+It should not know that Regidrago wants a Dragon payload in the discard pile or that Evo Vileplume wants Bunnelby + TM Evolution. Those are strategic facts for brains/policy helpers.
 
-### Card implementations own card effects
+Avoid generic-engine branches keyed to archetype names. If an interaction can be expressed through actual cards and current state, model it there.
 
-A card module translates the printed card into game effects. It should not decide whether playing that card is strategically desirable.
+### Card implementations own printed effects
 
-Card identity must preserve exact printing information. Deck files already provide set and collector-number information, which should resolve through the card-data adapter to a stable internal `CardId`.
+A card module translates exact printed card text into game effects. It does not decide whether playing that card is strategically desirable.
 
-Shared effects should be reusable. A generic switch, search, gust, draw, discard, damage-modifier, Ability-suppression, attack-cost, Item-lock, or Supporter-lock primitive should not be reimplemented for each archetype.
+Shared effects should be reusable. Generic switch, search, gust, draw, discard, damage modification, Ability suppression, attack-cost modification, Item lock, Supporter lock, recovery, and similar primitives should not be reimplemented independently for every deck brain.
 
-### Policies own strategy
+### Brains own strategic choices
 
-A policy receives the information legally available to that player and selects among legal actions.
+Brains choose among legal actions.
 
-Policy is where deck intelligence belongs, including:
+Policy is where DCI, AMR, ALS, connector domination, Supporter contention, resource preservation, matchup objectives, and bounded projection belong.
 
-- archetype-line-specifics and opening plans
-- dynamic Discard Capable Index decisions
-- Active Move Realism
-- K0/K1 deck and Prize knowledge
-- Supporter contention
-- connector domination
-- resource preservation
-- lead Pokémon selection and ordered lead sequences
-- matchup-aware target selection
-- recovery planning
-- local tactical projection when an important choice is genuinely ambiguous
-
-A policy may know the opponent's publicly revealed archetype and board. It must not read hidden opposing cards or unknown Prize information.
-
-An exact tournament list may need strategy that differs from another list in the same archetype. Keep reusable archetype policy in shared modules, with narrow list-specific behavior only when the exact list creates a real ALS or interaction difference.
+A brain may know information legitimately available to its player, including public opponent information and K1 Prize knowledge once earned. It must not inspect hidden opposing information.
 
 ### Lead Pokémon are a strategic role
 
-Do not encode `LeadPokemon` as a special rules category. Goomy, Wobbuffet, Budew, Klefki, Iron Thorns ex, and similar cards are ordinary Pokémon whose early-game value is recognized by policy.
+Do not encode `LeadPokemon` as a special rules category.
 
-Their effects should operate through the normal board and rules system. Ordered plans such as Wobbuffet into Goomy must remain distinguishable from the reverse order because the resulting setup graphs can differ radically.
+Goomy, Wobbuffet, Budew, Klefki, Iron Thorns ex, Chimecho, and similar cards are ordinary Pokémon. Their early-game value is recognized by the brain.
+
+Their actual effects operate through the normal rules and board. Ordered plans such as Wobbuffet -> Goomy remain distinct from Goomy -> Wobbuffet because the two orders can change both players' setup graphs differently.
 
 ### Locks emerge from the board
 
-Do not represent a real matchup as a synthetic `item_lock = true` scenario. Vileplume should create Item lock because the correct Vileplume is in play with an active Ability. Wobbuffet should suppress the relevant Abilities because it is Active and its effect applies. Goomy should tax attacks through its printed effect.
+Do not represent a real matchup as a synthetic `item_lock = true` scenario.
 
-This keeps interacting locks composable and allows switching, gusting, Tool removal, Ability suppression, Stadiums, Knock Outs, and other escape hatches to work naturally.
+Vileplume creates Item lock because the correct Vileplume is in play and its Ability is live. Stoutland creates its restriction because it is Active. Wobbuffet suppresses Abilities because it is Active and its effect applies. Goomy taxes attacks because its printed effect is live.
+
+This keeps locks composable with switching, gust, Tool removal, Ability suppression, Stadiums, Knock Outs, and counter-locks.
+
+## Strategic modeling concepts
+
+The simulator should preserve the following concepts when implementing brains and shared policy.
+
+### DCI and UDP
+
+Discard Capable Index (DCI) is dynamic.
+
+`0` means a card should not be discarded under the current state; `1` means it should be discarded immediately if possible. Values in between express relative willingness.
+
+A card can be effectively undiscardable due to play (UDP), singleton value, future resource requirements, matchup-specific needs, or because discarding it destroys the only complete setup route.
+
+Dragon payloads in Regidrago, dead Battle VIP Pass, Forest Seal Stone after its role is exhausted, Energy, ACE SPECs, and future attackers all demonstrate that DCI changes with board and matchup.
+
+### AMR
+
+Active Move Realism asks whether a theoretically available action is actually executable and sensible now.
+
+Ultra Ball is not "live" merely because it is in hand if the required discards are all critical. A support Pokémon is not automatically available when the Bench is full. A high-cost connector is less attractive if it consumes resources another axis needs.
+
+AMR-overriding occurs when the matchup creates a decisive race: for example, if the opponent will establish a brutal lock next turn, burning normally valuable resources to establish an attacker now can be correct.
+
+### K0 / K1
+
+K0 means the player has not legally inspected enough of the deck to know the Prize cards.
+
+K1 begins once a legal deck search/inspection provides enough information for the player to infer the missing cards by elimination.
+
+Keep engine truth separate from player knowledge. A brain may use Prize knowledge only after it has actually earned K1 in that game.
+
+### ALS
+
+Archetype-line-specifics describe concrete lines a list actually wants to execute, not generic archetype labels.
+
+Examples include:
+
+- Bunnelby + double TM Evolution into Vileplume/Pidgeot;
+- Tag Call -> Guzma & Hala -> Thunder Mountain + DCE for an early Iron Thorns attack;
+- Horror House -> Electrode self-KOs -> Electro Rain OTK;
+- a particular stall deck's recursion + trap loop.
+
+Usage notes exist largely to document these list-specific routes.
+
+### Connector domination
+
+Do not treat access as success.
+
+If Arven -> search Item -> another Pokémon draw engine exists, the brain must still ask what else Arven's Item/Tool access could have done. A connector is dominated when spending it on one path destroys a more complete or more valuable route.
+
+One-shot universal search, ACE SPECs, discard costs, Supporter slots, Bench slots, Energy attachment, evolution timing, and Tools can all be contested connectors.
 
 ## Simulation model
 
-A normal trial should follow one strong policy trajectory through a complete game.
+A normal trial follows one strong policy trajectory through a complete game.
 
-The simulator is not intended to exhaustively solve the full Pokémon TCG game tree. That approach becomes combinatorially intractable once searches, discard choices, Bench choices, targets, switch decisions, and opponent responses multiply across turns.
+The simulator is **not** intended to exhaustively solve the full Pokémon TCG game tree. Search targets, discard choices, Bench placement, switch choices, attack targets, hidden information, and opponent responses make exhaustive branching intractable.
 
-Most decisions should use deterministic or state-weighted policy. Expensive reasoning belongs only around decisions where the choice can materially change the game.
+Most decisions should use deterministic or state-weighted policy. Expensive reasoning belongs only around choices that can materially change the game.
 
-A useful decision flow is:
+A useful action loop is:
 
-1. Generate legal actions from the rules engine.
-2. Remove strategically dominated choices when policy can prove domination.
-3. Score ordinary choices from current state and deck objectives.
-4. For a small number of critical choices, project the strongest candidates through a bounded local horizon.
-5. Execute one action and continue the real game.
+1. Rules engine generates legal actions.
+2. Brain removes strategically dominated options when domination is clear.
+3. Brain scores ordinary choices using current objectives.
+4. For a small number of critical choices, bounded local projection may compare the strongest candidates.
+5. Brain selects one action.
+6. Rules engine resolves it.
+7. Repeat until the turn/game ends.
 
-Do not recursively branch the entire game from every Trainer, search target, discard, or attack target.
+Do not recursively branch the full future game from every Trainer, search, discard, or attack target.
 
 ### Search and connector realism
 
-Access to a card does not prove a route is good. Policies must account for the cost of the connector and what that same connector could have accomplished elsewhere.
+The preferred route is the earliest **complete legal route after costs and contention**, not the route with the most theoretical card access.
 
-Examples include Supporter-slot contention, one-use universal search, discard costs under low DCI, occupied Bench slots, ACE SPEC contention, and multi-axis cards that satisfy several setup requirements at once.
-
-The simulator should prefer the earliest complete legal route after all costs and contention are applied. A route that reaches a card but destroys a more important axis can be dominated.
+Supporter-slot contention, discard costs, one-use search, Bench limits, ACE SPEC contention, evolution timing, Energy attachments, and multi-axis cards all matter.
 
 ### Hidden information
 
-Keep public game state separate from each player's private knowledge.
+Public state, each player's private knowledge, and omniscient engine truth must remain distinct.
 
-K0 means the player has not legally inspected the deck and therefore cannot infer the Prize cards. K1 begins after a legal full-deck search or inspection gives enough information to determine the missing cards by elimination.
-
-Policies may use K1 information only after it has actually been earned in that trial.
+A production brain receives only the information it is legally entitled to know. Omniscient state may appear in debug traces, but it must never influence the selected action.
 
 ### Randomness and reproducibility
 
-All randomness should come from explicit seeded RNG owned by the simulation layer. Avoid hidden random calls inside card or policy modules.
+All randomness comes from explicit seeded RNG owned by the simulation layer. Avoid hidden random calls inside card or brain modules.
 
-A game record should contain enough seed information to reproduce the exact opening, Prizes, draws, and random effects. When comparing policy or deck variants, paired seeds are preferred so differences are measured against the same underlying random samples where possible.
+A `GameRecord` must contain enough identity and seed information to reproduce:
+
+- the exact two packages;
+- seat assignment;
+- opening shuffle;
+- Prize cards;
+- draws;
+- random card effects;
+- the resulting game trajectory.
+
+When comparing variants, paired seeds are preferred so the underlying random samples match where possible.
 
 Parallel execution must not change results for a fixed seed set.
 
@@ -312,23 +474,29 @@ Parallel execution must not change results for a fixed seed set.
 
 Literal Pokémon TCG victory conditions are always valid terminal states.
 
-Early adjudication is allowed only through a separately tested matchup adjudicator whose predicate has been validated as a real checkmate or effectively forced state for the exact modeled lists. Favorable board position alone is not sufficient.
+Early adjudication is allowed only through a separately tested matchup adjudicator whose predicate has been validated as a real forced or effectively forced state for the exact modeled lists.
 
-Examples of adjudication candidates include a fully established control loop with no live escape route, an exhausted attacker graph that cannot rebuild before the opponent's decisive action, or an exact combo state that deterministically takes the remaining Prizes.
+Examples include:
 
-Adjudicators belong under `src/adjudication/`. They should return a structured reason rather than a bare boolean. If a proposed shortcut is uncertain, continue playing the game.
+- a complete control loop with no live escape route;
+- an attacker graph exhausted with no rebuild before the opponent's decisive action;
+- an exact combo state that deterministically takes the remaining Prizes.
 
-A safety turn cap may exist to catch policy loops or unsupported states. Hitting that cap should be visible as an unresolved/error result during development and should not be silently counted as a win or loss in the final matrix.
+Favorable position alone is not enough.
+
+Adjudicators live under `src/adjudication/` and return a structured reason rather than a bare boolean. If a shortcut is uncertain, continue playing the game.
+
+A safety turn cap may catch policy loops or unsupported states. Hitting it must be visible as unresolved/error during development and must not silently count as a production win or loss.
 
 ## Per-game records
 
-Keep the required aggregate output small while making individual trials auditable.
+Keep aggregate output small while keeping every game reproducible.
 
-A structured game record should be able to capture fields such as:
+A structured record should be able to capture fields such as:
 
 ```text
-main_deck
-opposing_list
+main_package
+opposing_package
 seed
 main_seat
 winner
@@ -345,98 +513,130 @@ recovery_route
 policy_notes
 ```
 
-Avoid storing enormous text traces for every production trial. Full traces are most useful for sampled audits, failures, unresolved games, policy disagreements, and regression tests.
+Full textual traces do not need to be stored for every production trial. They are most useful for sampled audits, failures, unresolved games, policy disagreements, and regression tests.
 
 ## Single-game trace mode (`--simulate-this`)
 
-In addition to batch Monte Carlo output, the simulator should provide a developer/debug interface equivalent in purpose to the original repository's `--simulate-this` mode: **run exactly one complete game between two selected deck files and print enough information to audit every important decision and state transition.**
+In addition to batch Monte Carlo output, the simulator provides a developer/debug capability equivalent in purpose to the original repository's `--simulate-this` mode:
 
-The canonical selector should be the exact repository-relative deck path so similarly named archetypes never become ambiguous. A target CLI may look like:
+> Run exactly one complete game between two selected deck packages and show everything needed to audit the game.
+
+The canonical selectors are exact repository-relative **package paths**, not fuzzy archetype names:
 
 ```bash
 ./pokemon_sims_v2 --simulate-this \
-  --main "main decks/regidrago-vstar.txt" \
-  --opponent "opposing lists/aichi lists/02-takahiro-ando-vileplume-control.txt" \
+  --main "main decks/regidrago-vstar" \
+  --opponent "opposing lists/aichi lists/02-takahiro-ando-vileplume-control" \
   --main-goes-first \
   --seed 12345
 ```
 
-The exact flag spelling may evolve, but the capability is required. It should be possible to ask, in effect, **"run one game and show me everything for Regidrago VSTAR versus the Vileplume control list in Aichi slot #2."** Seat order must be explicit or clearly reported. A seed should be optional for ad hoc runs and accepted explicitly for deterministic replay.
+The exact CLI spelling may evolve, but the capability is required. The simulator resolves `decklist.txt` and `brain.cpp` from each selected package.
 
-The trace should make the game inspectable without changing how either policy plays. At minimum, it should report:
+Seat order must be explicit or clearly reported. A seed is optional for ad hoc runs and accepted explicitly for deterministic replay.
 
-- exact main and opposing deck files
-- RNG seed and seat order
-- mulligans, opening hands, opening Active/Bench choices, and Prize setup
-- every draw and other random event
-- turn and phase boundaries
-- every action selected by each policy
-- costs paid, cards discarded, cards searched, targets chosen, attachments, switches, gusts, evolutions, and attacks
-- relevant legal-action or candidate-action information when it helps explain a policy decision
-- policy rationale or scores for materially ambiguous choices, including bounded projections when used
-- DCI/AMR or route information when those values materially determine the action
-- K0/K1 transitions and what the acting policy is legally allowed to know
-- continuous effects and lock changes caused by the actual board
-- damage, Special Conditions, Knock Outs, Prize taking, recovery, and zone changes
-- adjudication checks and the exact terminal/decisive reason
-- final board, remaining resources, winner, and termination type
+A full trace should report at least:
 
-For debugging, the trace may also provide an explicitly labeled **omniscient engine view** containing hidden cards and Prize contents. That view must never be fed into policy decisions. The trace should distinguish engine truth from each player's legal information so hidden-information bugs are easy to detect.
+- exact package paths and resolved decklists/brains;
+- RNG seed and seat order;
+- mulligans;
+- opening hands;
+- opening Active/Bench choices;
+- Prize setup;
+- every draw and random event;
+- turn and phase boundaries;
+- every action selected by each brain;
+- costs, discards, searches, targets, attachments, switches, gusts, evolutions, and attacks;
+- relevant candidate-action information for important policy choices;
+- policy rationale/scores for materially ambiguous choices;
+- bounded projections when used;
+- DCI/AMR/route information when it determines the action;
+- K0/K1 transitions and the information legally known by the acting player;
+- continuous effects and lock changes;
+- damage, Special Conditions, Knock Outs, Prize taking, and recovery;
+- adjudication checks and terminal reason;
+- final board/resources/winner.
 
-`--simulate-this` should use the same rules engine, card implementations, policies, adjudicators, and RNG semantics as production trials. It must not be a second simplified simulator. A production `GameRecord` should contain enough identifiers that a suspicious game can be replayed through this mode using the same two deck paths, seat assignment, and seed.
+For debugging, the trace may also show an explicitly labeled **omniscient engine view** containing hidden cards and Prizes. That view must never be fed back into either brain.
 
-This mode is a primary correctness tool for agents. New mechanics, policies, matchup adjudicators, and surprising statistical results should be auditable by running representative fixed seeds and reading the complete trace from opening setup through termination.
+`--simulate-this` uses the **same** rules engine, card implementations, brain code, adjudicators, and RNG semantics as batch production trials. It is not a simplified second simulator.
+
+A suspicious production `GameRecord` should be replayable by feeding its two package paths, seat assignment, and seed into this mode.
 
 ## Result generation
 
-The reporting layer must follow [`EXPECTED_RESULT_MANIFEST.md`](EXPECTED_RESULT_MANIFEST.md).
+For every package under `main decks/`:
 
-For every main deck:
+1. Recursively enumerate all valid deck packages under `opposing lists/`.
+2. Run 1,000 trials with the main package going first against each opponent.
+3. Run another 1,000 trials with the main package going second.
+4. Aggregate each exact opposing package independently.
+5. Produce the vertical matrix and overall row defined by `EXPECTED_RESULT_MANIFEST.md`.
+6. Attach deeper diagnostics separately when available.
 
-1. Recursively enumerate all files under `opposing lists/`.
-2. Run 1,000 trials with the main deck going first for each opposing list.
-3. Run another 1,000 trials with the main deck going second.
-4. Aggregate each exact opposing list independently.
-5. Produce the vertical matrix and overall row defined by the manifest.
-6. Attach deeper statistics separately when available.
+The matrix should identify opponents by stable repository-relative package path.
 
 `future decks/` is excluded from discovery.
 
 ## Testing strategy
 
-Correctness matters more than raw trial count. Tests should be layered so failures identify the responsible module.
+Correctness matters more than raw trial count. Tests should identify which layer is wrong.
+
+### Package/discovery tests
+
+Verify:
+
+- package discovery under `main decks/`;
+- recursive package discovery under `opposing lists/`;
+- `future decks/` exclusion;
+- required `decklist.txt`;
+- required `brain.cpp`;
+- stable package-path identity;
+- optional sibling source files do not create phantom decks;
+- Usage-only changes do not change parsed card contents.
 
 ### Rules tests
 
-Verify objective mechanics with the smallest possible board state. Evolution timing, Retreat, attack costs, Prize taking, continuous effects, lock interactions, Tool behavior, and similar rules belong here.
+Verify objective mechanics with the smallest possible board state: turn rules, evolution timing, Retreat, attack costs, damage, Prize taking, continuous effects, Tools, Stadiums, locks, Special Conditions, and other printed interactions.
 
 ### Card tests
 
-Verify each implemented card against its exact printed text and authoritative ruling sources. Prefer reusable effect primitives so a rules correction fixes every card that uses the primitive.
+Verify exact printings against local card data and authoritative rulings. Prefer reusable effect primitives so a rules correction fixes every card that uses the primitive.
 
-### Policy tests
+### Brain/policy tests
 
-Give a policy a known legal state and verify the strategically correct action or a narrow acceptable action set. Assertions should describe semantic goals instead of overfitting to historical turn numbers or arbitrary seed coordinates.
+Give a brain a known legal-information state and verify the strategically correct action or a narrow acceptable set.
+
+Assertions should describe semantic goals rather than overfitting to arbitrary historical turn coordinates or one seed.
 
 ### Matchup tests
 
-Exercise real interactions between policies, including escape hatches and alternate ALS routes. A lock test should verify how the opposing policy responds when the primary route is disconnected.
+Exercise real interactions between complete deck packages, including alternate ALS routes, counter-locks, recovery, and escape hatches.
 
 ### Regression traces
 
-Fixed seeds are useful as reproducible examples. The test should assert the strategically meaningful behavior demonstrated by the seed rather than making the seed itself the specification.
+Fixed seeds are valuable reproducible examples. Tests should assert the strategically meaningful behavior the seed demonstrates rather than treating the seed itself as the specification.
 
 ### Reporting tests
 
-Verify deck discovery, seat separation, trial counts, aggregation, combined percentages, recursive opponent paths, `future decks/` exclusion, and the exact matrix contract.
+Verify seat separation, trial counts, aggregation, combined percentages, recursive package paths, and the matrix contract.
+
+### `--simulate-this` tests
+
+A production `GameRecord` replayed by package paths + seat + seed should reproduce the same game. Trace mode must not change brain decisions.
 
 ## Relationship to `pokemon-sims`
 
-The original `pokemon-sims` repository contains substantial Regidrago-specific setup intelligence and regression coverage. Treat it as a behavioral reference while Regidrago policy is migrated.
+The original `pokemon-sims` repository contains substantial Regidrago-specific setup intelligence and regression coverage. Treat it as a behavioral reference while shared helpers and the main Regidrago package brain are implemented.
 
-Useful strategic concepts and validated route logic should be ported into `src/policy/regidrago/` or reusable policy helpers. The old single-player engine structure should not dictate the new two-player state model.
+Useful route logic should be migrated into either:
 
-When an inert-opponent state is equivalent to a legacy goldfish scenario, parity tests can compare important decisions and setup timing against the old simulator. This protects accumulated Regidrago intelligence while allowing the v2 rules engine to remain general.
+- shared policy helpers when it is generally reusable; or
+- `main decks/regidrago-vstar/brain.cpp` and sibling helpers when it belongs to that exact list.
+
+The old single-player engine structure should not dictate the new two-player state model.
+
+When an inert-opponent state is equivalent to a legacy goldfish scenario, parity tests can compare important decisions and setup timing against the old simulator.
 
 ## Performance principles
 
@@ -444,19 +644,22 @@ The primary workload is many short independent games, which parallelizes natural
 
 Optimize in this order:
 
-1. Correct state transitions.
-2. Correct policies and adjudication.
-3. Reproducibility and diagnostics.
-4. Profiling evidence.
-5. Targeted optimization of measured hotspots.
+1. correct state transitions;
+2. correct card effects;
+3. correct brains and adjudication;
+4. reproducibility and diagnostics;
+5. profiling evidence;
+6. targeted optimization of measured hotspots.
 
 Useful optimizations may include compact state objects, immutable card metadata, cached pure continuous-effect queries within a state version, efficient zone containers, batched trials, thread-local RNG, and bounded local projections.
 
 Avoid premature global memoization across hidden-information states unless the state key is proven complete. Incorrect cache equivalence is more damaging than a slower simulation.
 
+The intended workload is policy trajectory simulation, not exhaustive minimax of every legal Pokémon TCG action.
+
 ## Agent contribution rules
 
-This repository is expected to receive concurrent agent work. Keep changes easy to merge and easy to audit.
+This repository is expected to receive concurrent agent work. Keep changes easy to merge and audit.
 
 - Read `EXPECTED_RESULT_MANIFEST.md` before implementing simulator output.
 - Read the local advanced manual before implementing a game rule.
@@ -464,27 +667,29 @@ This repository is expected to receive concurrent agent work. Keep changes easy 
 - Consult the Compendium when a rules interaction remains ambiguous.
 - Leave `EXPECTED_RESULT_MANIFEST.md` unchanged.
 - Leave `future decks/` unchanged unless explicitly tasked.
-- Treat decklist files as input data. Avoid changing them while implementing engine or policy behavior unless the task is specifically a decklist correction or Usage documentation task.
-- Parse decklists as PTCGL import text with the optional `Usage:` appendix described above; never count Usage text as cards.
-- Read a deck's `Usage:` notes when developing its policy so the simulator does not optimize toward the wrong archetype objective.
+- Treat `decklist.txt` as exact input data; do not change the 60 cards while implementing engine/brain behavior unless the task is specifically a decklist correction.
+- Parse only the PTCGL portion of `decklist.txt`; never count `Usage:` as cards.
+- Read Usage before implementing or auditing a deck's brain.
+- Put exact-list strategic behavior in that package's `brain.cpp` or sibling helpers.
+- Put genuinely reusable strategy in `src/policy/common/` or `src/policy/archetypes/`.
 - Keep generic rules free of archetype strategy.
-- Keep policy logic out of card effect handlers.
+- Keep policy logic out of card-effect handlers.
 - Put matchup terminal shortcuts in adjudication modules and test them independently.
-- Prefer shared primitives over repeated card-specific implementations.
+- Prefer shared primitives over repeated card-specific rule implementations.
 - Avoid giant archetype switches and one-off seed fixes.
 - Add direct source URLs beside rules-sensitive implementation code.
-- Keep commits and pull requests focused on one coherent subsystem when practical.
-- Add tests with each new mechanic, card family, policy rule, or adjudication predicate.
-- Inspect current branches and recent commits before editing shared files so concurrent work is not overwritten.
-
-When several agents need to work at once, prefer adding isolated modules behind stable interfaces over editing one central file.
+- Keep commits focused on coherent subsystems.
+- Add tests with each mechanic, card family, brain rule, or adjudication predicate.
+- Inspect current branches/recent commits before editing shared files so concurrent work is not overwritten.
+- Prefer adding isolated modules behind stable interfaces over editing one giant central file.
 
 ## Design goal
 
-The simulator should make the combinatorics manageable by separating three questions:
+The simulator makes the combinatorics manageable by separating four questions:
 
-1. **What actions are legal?** The rules and card-effect layers answer this.
-2. **Which legal action should this deck choose?** The policy layer answers this using matchup-aware strategy and bounded projection.
-3. **Has the game actually ended or reached a validated forced state?** Literal rules and adjudication answer this.
+1. **What exact deck is this?** `decklist.txt` answers this.
+2. **What actions are legal and what do they do?** The rules/card layers answer this.
+3. **Which legal action should this exact deck choose?** Its `brain.cpp`, supported by shared policy helpers, answers this.
+4. **Has the game actually ended or reached a validated forced state?** Literal rules and adjudication answer this.
 
-That separation allows the simulator to play complete paper Expanded games with realistic locks, setup races, lead Pokémon, recovery, and disruption while keeping each subsystem understandable enough for independent agents to improve safely.
+That separation allows independent agents to improve deck strategy without corrupting rules, improve rules without rewriting every deck, and replay any suspicious simulated game through the same exact package code that produced it.
