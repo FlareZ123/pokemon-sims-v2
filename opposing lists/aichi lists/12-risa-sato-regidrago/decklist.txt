@@ -40,3 +40,25 @@ Energy: 10
 2 Fire Energy MEE 2
 
 Total Cards: 60
+
+Usage:
+This is Risa Sato's top-16 CL Aichi 2026 Regidrago VSTAR list. It is a fast four-DDE Apex Dragon toolbox with explicit mirror manipulation through Echoing Horn, two Dialga-GX copies, Noivern ex, Counter Catcher, Path to the Peak and Parallel City. The brain should treat Bench composition and the opponent's discard pile as attack resources that can be actively changed, not as passive state.
+
+The core setup is the familiar Expanded Regidrago graph: establish Regidrago V, evolve, attach enough Energy, and put the right Dragon attackers into the discard through Mysterious Treasure, Ultra Ball, Professor Sycamore or other discard routes. Quick Ball plus Dedenne-GX/Crobat V/Tapu Lele-GX provides explosive consistency; Raihan and Crispin give compressed recovery/acceleration when ordinary attachments are too slow. Four Double Dragon Energy make a live DDE one of the most important connectors in the deck.
+
+Dialga-GX is present at two copies because Timeless-GX is one of the deck's strongest conversion attacks and because mirror disruption can remove a single discarded Dialga from Apex access. Timeless-GX should be valued by what the extra turn creates: another attachment, evolution, gust, Trifrost, Phantom Dive, Dominating Echo, or a knockout before the opponent can respond. Do not use it simply because 150 damage is available.
+
+Echoing Horn is a deliberate Regidrago mirror tool documented in the Aichi metagame review. One use is to return an opposing Budew to the Bench so Phantom Dive can take an extra easy Prize and repair an awkward odd-Prize map. More subtly, Echoing Horn can return an opposing Dialga-GX or Koraidon ex from discard to the Bench. Apex Dragon only copies attacks from Dragon Pokémon in the user's discard pile, so moving one of those Pokémon out of the opponent's discard can remove that attack from the opponent's available toolbox until it is discarded again. The brain should search for these denial lines whenever they buy a full turn or prevent the opponent's decisive attack.
+
+Noivern ex adds both damage and control options. Its attacks should be selected based on whether the board calls for protection from Basics, Special Energy/Stadium denial, or direct pressure; do not reduce Noivern to a generic damage payload. Kyurem punishes wide Basic benches, while Dragapult ex supplies spread and Koraidon ex gives a distinct copied attack/non-Regidrago attacking option. Budew is the early Item-lock lead when denying a single Item turn wins the setup race.
+
+Path to the Peak is a disruption Stadium that also turns off the deck's own Rule Box Abilities. Sequence Dedenne-GX, Crobat V, Fezandipiti ex, Tapu Lele-GX and other needed Rule Box Abilities before committing Path. Parallel City can constrain an opponent's Bench or remove the user's liabilities after their Abilities have been consumed. Megaton Blower is an ACE SPEC-like high-discrete-value board reset against Tools/Stadiums and should not be discarded casually.
+
+Against the mirror, preserve a second Regidrago attacker and evaluate Echoing Horn, Counter Catcher and Parallel City as ways to alter the opponent's attack graph before choosing damage. Against non-mirror decks, prioritize whichever payload or Budew line produces the first decisive state rather than blindly chasing the fastest nominal attack.
+
+Primary objective: establish Apex Dragon quickly, then manipulate discard access, Bench targets, Stadiums and the Prize map so the opponent loses its best response before the next attack.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/regidrago
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league

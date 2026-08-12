@@ -31,3 +31,25 @@ Energy: 8
 8 Darkness Energy MEE 7
 
 Total Cards: 60
+
+Usage:
+This is Wataru Yano's top-16 CL Aichi 2026 Mega Absol ex / Garbodor list. Like the other successful Aichi Absol builds, it wants turn-1-going-first Garbotoxin whenever that lock wins the setup race, but this exact list has a distinct Tool-access package built around Oranguru V, two Forest Seal Stone, three Float Stone and Shopping Center. The brain must sequence those Tools and Abilities deliberately rather than treating Garbodor as an unconditional first action.
+
+Boost Shake is the direct turn-1 Garbodor route. Evolve Trubbish immediately, attach a Tool such as Float Stone, and Garbotoxin removes Abilities from Pokémon in play, hands and discard. Dowsing Machine specifically identifies Boost Shake Garbodor as a major Aichi success pattern because many Regidrago players chose to go second, allowing Absol to establish Garbotoxin before their first action. If the opponent's engine depends on Dedenne-GX, Crobat V, Squawkabilly ex, Tapu Lele-GX or similar Abilities, winning this timing race can decide the game before damage matters.
+
+Oranguru V creates an alternate setup line. While Oranguru V is Active, Back Order can search the deck for up to two Pokémon Tools. This can assemble Float Stone plus Forest Seal Stone or other Tool requirements before Garbotoxin turns Oranguru's Ability off. Because the deck has no other attacker family competing for evolution space, an opening Oranguru can be worth the temporary Active-position cost when the Tool search deterministically establishes the lock. Latias ex and Float Stone help solve the later pivot. The brain should explicitly score whether using Back Order first is stronger than locking immediately.
+
+Forest Seal Stone is also time-sensitive: obtain and use Star Alchemy before Garbotoxin if the granted VSTAR Power is needed for setup. Shopping Center lets the deck manipulate attached Tools over a longer game, so a Tool that has already served its purpose may be recoverable/redeployable instead of permanently stranded. This matters for maintaining Float Stone mobility and choosing which Pokémon should carry the Tool that keeps Garbotoxin live.
+
+Mega Absol ex is the primary attacking conversion. Eight basic Darkness Energy, four Professor's Letter and three Dark Patch make this version relatively robust at paying Claw of Darkness without Special Energy. Claw of Darkness deals 200 and reveals the opponent's hand, allowing the brain to discard the card whose removal most damages the opponent's remaining graph. Marnie before attacking can reduce and randomize that graph further; Carmine is strong early draw; Guzma combines gust and switching when the correct Prize target or trapped support Pokémon matters.
+
+Temple of Sinnoh is especially strong into Double Dragon Energy and other Special-Energy-centric Expanded decks. Since this list itself uses only basic Darkness Energy, the Stadium is highly asymmetric. Preserve it when it will turn off an opponent's compressed attack route, and avoid replacing it merely for Stadium churn.
+
+Against Regidrago, a common ideal line is: extract any needed Oranguru V / Rule Box / Forest Seal Stone value, establish Garbotoxin before Regidrago's Ability-based setup, then use Marnie plus Claw of Darkness to remove the best recovery/attacker/Energy connector while Temple of Sinnoh pressures DDE. If Wobbuffet is Active on the opposing side, re-evaluate Garbotoxin because Bide Barricade can suppress it.
+
+Primary objective: sequence Oranguru/Forest Seal Stone and other self-Abilities before a fast Boost Shake Garbotoxin, then use reliable basic-Energy acceleration and targeted Claw of Darkness hand destruction to prevent the opponent from ever rebuilding a complete setup route.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/mega-absol
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league

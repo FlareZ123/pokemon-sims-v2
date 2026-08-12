@@ -41,3 +41,23 @@ Energy: 10
 2 Fire Energy MEE 2
 
 Total Cards: 60
+
+Usage:
+This is Haruku Yoshioka's top-16 CL Aichi 2026 Regidrago VSTAR list. It is an aggressive Apex Dragon toolbox with a particularly strong mirror/disruption package: two Budew, Wobbuffet, Hisuian Goodra VSTAR, Prime Catcher, Parallel City and four Double Dragon Energy. The default objective is still to establish an attacking Regidrago VSTAR as early as possible, but the brain must choose whether the first decisive state is an attack, a lead-based delay, or a defensive Rolling Iron turn.
+
+The normal setup graph uses Quick Ball, Mysterious Treasure and Battle VIP Pass to establish Regidrago plus the required support Pokémon; Professor's Research, Carmine, Dedenne-GX, Squawkabilly ex and Tapu Lele-GX provide explosive hand conversion. Battle Compressor and discard costs place Dragon payloads in the discard pile for Apex Dragon. With four Double Dragon Energy, the list has more direct one-card Energy compression than the main-deck Regidrago build and should value preserving a live DDE attachment route very highly.
+
+Budew ASC is a lead and tempo attack, not a main attacker. Itchy Pollen can deny Items while costing no Energy, which is especially valuable when going first or when one denied Item turn pushes the opponent's setup behind Regidrago's attack clock. Two copies make opening/establishing Budew much more likely, but the brain must still account for the Prize liability and the cost of later moving it out of the Active. Wobbuffet is the complementary Ability-denial lead against non-Psychic setup engines; do not assume Budew and Wobbuffet effects are simultaneously active because both generally compete for the Active Spot.
+
+The attack toolbox should be evaluated by board collapse, not raw damage. Dialga-GX's Timeless-GX can create an extra turn that converts into a second Apex Dragon attack before the opponent acts. Kyurem's Trifrost punishes multi-Basic setup boards; Dragapult ex supplies spread/pressure; Koraidon ex provides a non-Regidrago attack option and a different copied attack; Hisuian Goodra VSTAR's Rolling Iron is the important defensive option. Dowsing Machine's Aichi review notes that Goodra returned to Regidrago lists because many opponents had cut Pokémon Ranger: Rolling Iron can prevent the usual Timeless-GX-follow-up knockout sequence and force the mirror to spend a turn or find a counter.
+
+Prime Catcher is a one-use discrete-value connector: preserve it when a future gust plus attack is likely to decide the game, but use it immediately when it creates the first irreversible board collapse. Guzma provides repeatable Supporter-based gust/switch access, so the two should be scored against Supporter contention and the need to move a lead Pokémon. Parallel City can shrink an opposing Bench or deliberately remove liabilities from the user's own Bench; its timing should be evaluated against both players' board dependencies.
+
+Against the mirror, preserve a second credible Regidrago attacker whenever possible and recognize that a powered Goodra-derived Rolling Iron state can be worth more than maximizing immediate damage. Against non-mirror combo/control, Budew or Wobbuffet can buy the one turn needed to connect Timeless-GX, Trifrost or another decisive attack. Faba is held for Special Energy/Tool/Stadium disruption when removing one of those cards materially disconnects the opponent's route.
+
+Primary objective: win the race to the first decisive Apex Dragon state while using Budew/Wobbuffet to delay faster opposing graphs and Goodra/Prime Catcher/Parallel City to convert or survive the mirror. Do not goldfish past an available disruption line that buys more tempo than a nominally faster Regidrago setup.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/regidrago
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
