@@ -38,3 +38,24 @@ Energy: 7
 1 Telepathic Psychic Energy POR 88
 
 Total Cards: 60
+
+Usage:
+This is Shun Ito's 9th-place CL Aichi 2026 Mega Absol ex / Electrode-GX list. It is not the same strategy as the Garbodor builds. Instead it combines a lock-resistant Unown draw engine, Electrode-GX's self-KO Energy acceleration, Mega Absol's hand disruption, Toedscruel recovery denial, and several Stadium-based Ability locks. The brain should treat it as a compact combo/control toolbox rather than forcing the Garbodor game plan from other Absol lists.
+
+The distinctive setup engine is Unown AOR + Rescue Carrier. Unown's Farewell Letter discards itself from the Bench to draw a card; Rescue Carrier returns low-HP Pokémon such as Unown so the loop can continue. Telepathic Psychic Energy is especially strong here because attaching it from hand to a Psychic Pokémon can place additional Basic Psychic Pokémon on the Bench before Unown converts itself into another draw. Dowsing Machine specifically highlights this Aichi engine because it functions through common lock pieces: Unown is not a Rule Box Pokémon, and as a Psychic Pokémon its Ability is not suppressed by Wobbuffet's Psychic exception. This makes the deck less dependent on Dedenne/Crobat-style Rule Box draw.
+
+Electrode-GX is an acceleration and Prize-manipulation piece. Extra Energy Bomb Knocks Out Electrode-GX and attaches up to five Energy cards from the discard pile to Pokémon other than Pokémon-GX or old Pokémon-EX. Modern lowercase Pokémon ex are a different category, so Mega Absol ex is a legal recipient under the printed wording. This lets the deck convert discarded Prism/Darkness/Psychic Energy into an immediately powered Mega Absol while intentionally giving up two Prizes. Do not self-KO Electrode unless the resulting Energy/Prize state improves the actual race; the two-Prize concession is a cost, not free acceleration.
+
+Mega Absol ex then pressures both board and hand. Claw of Darkness deals 200 and lets the player reveal the opponent's hand and discard the best card found there. Iono can make that hand smaller first. Select the discard by remaining route importance: recovery, switch, lock breaker, Energy connector, attacker/evolution, or unique search piece can matter more than raw card count.
+
+Toedscruel PAR is a control node rather than a required attacker. Slime Mold Colony prevents the opponent from moving cards from their discard pile into their hand through their Abilities or Trainer cards, turning off many recovery loops and VS Seeker-style lines while it remains active. Silent Lab and Path to the Peak provide other Ability-denial modes; sequence your own Unown/Dedenne/Squawkabilly/Forest Seal Stone value before playing a Stadium that turns needed Abilities off. PokéStop is the opposite mode: a consistency/discard engine when you want to accelerate Items/Energy into the appropriate zones.
+
+Gengar & Mimikyu-GX can provide a Horror House-GX setup window when a protected extra turn of development is more valuable than immediately attacking with Absol. Sableye V provides Trainer recovery/damage-based utility. Canceling Cologne is an explicit answer to a problematic opposing Active Ability/wall.
+
+Primary objective: use the Unown engine to assemble the exact control/combo pieces through Ability-lock pressure, convert Electrode-GX into a powered Mega Absol when profitable, and keep the opponent from recovering through hand stripping, Toedscruel and Stadium locks.
+
+Research references:
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://limitlesstcg.com/decks/list/26815
+https://limitlesstcg.com/cards/AOR/30
+https://limitlesstcg.com/cards/CES/48

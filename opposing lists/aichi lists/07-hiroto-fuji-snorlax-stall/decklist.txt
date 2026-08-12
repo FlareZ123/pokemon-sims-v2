@@ -42,3 +42,23 @@ Energy: 4
 1 Jet Energy PAL 190
 
 Total Cards: 60
+
+Usage:
+This is Hiroto Fuji's top-8 Aichi stall list. Although tournament databases group it with Snorlax Stall, this exact build is better understood as a rotating wall/trap deck: Wobbuffet, Mimikyu, Snorlax, Omega Barrier Pokémon, Dolls/Substitutes and recursive disruption each deny a different class of opposing outs. Do not pilot it as an attacking deck and do not assume Snorlax must be Active every turn.
+
+Wobbuffet PHF is an early and situational Ability-denial wall. While Active, Bide Barricade removes Abilities from non-Psychic Pokémon in play, hand and discard. This can shut down opposing Rule Box setup engines before the stall board is ready. Because Mimikyu is Psychic, its Safeguard remains compatible with the Wobbuffet wall; Omega Barrier is an Ancient Trait rather than an Ability, so Regirock/Electrike retain that protection as well. Snorlax's Block, however, is a non-Psychic Ability and should not be assumed live while Wobbuffet is Active. The brain must sequence these walls rather than stacking their text as though all effects are simultaneously active.
+
+Mimikyu PAL walls damage from opposing Pokémon ex and Pokémon V. Regirock XYP and Electrike PRC have Omega Barrier, which prevents many effects of opposing Trainer cards from affecting them. In Expanded, where escape often relies on Guzma, Counter Catcher, Escape Rope or other Trainer effects, an Omega Barrier Pokémon can be a deliberately awkward Active that the opponent cannot manipulate normally. This is a major part of the wall strategy; an external Aichi matchup report specifically warns that Regirock/Electrike can make normal Guzma-based switching fail.
+
+Snorlax supplies the classic Block trap when the opposing Active is a poor attacker and Wobbuffet is no longer suppressing Block. Captivating Poké Puff, Target Whistle, Counter Catcher and Guzma help expose liabilities. The objective is to choose a target whose attack/retreat graph can be exhausted, then preserve the relevant wall while Energy denial and mill advance the win.
+
+Steven's Resolve is unusually natural here: the deck often does not need to attack, so ending the turn to search three exact cards can be a strong deterministic setup action. Lusamine, VS Seeker, Teammates, N, Faba, Plumeria, Team Flare Grunt, Enhanced Hammer, Team Rocket's Handiwork and Bellelba & Brycen-Man form the long-game recursion/disruption package. Robo Substitute and Lillie's Poké Doll buy turns without donating normal Prize value. Recycle Energy and Jet Energy help maintain pivots without consuming too many finite Energy cards.
+
+Girafarig permanently removes important discard resources when the opponent's recovery graph depends on them. Stadiums should be chosen to protect the wall cycle and deny opposing Stadium plans, not for damage.
+
+Primary objective: continuously present the wall or trap that invalidates the opponent's current route, force them to spend finite escape/Energy resources, and convert that resource exhaustion into deck-out. Switching from Wobbuffet to Mimikyu to Snorlax/Omega Barrier at the correct time is the strategy; treating any one of them as the permanent Active is a policy error.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/snorlax-stall
+https://note.com/brainy_whale636/n/naddf16cabe73
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results

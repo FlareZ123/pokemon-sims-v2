@@ -42,3 +42,22 @@ Energy: 7
 2 Lightning Energy MEE 4
 
 Total Cards: 60
+
+Usage:
+This is Yusuke Kobayashi's top-8 CL Aichi 2026 Mega Absol ex / Garbodor list. Its identity is disruption-first aggro: establish Garbotoxin as early as possible, then use Mega Absol ex to attack while stripping the opponent's best remaining cards from hand. Do not pilot it as a pure 200-damage race; the lock plus targeted hand destruction is what lets its comparatively modest damage beat faster Expanded engines.
+
+The highest-value opening when going first is often an immediate Garbodor. Boost Shake can evolve Trubbish on the first turn; once Garbodor LTR has a Tool attached, Garbotoxin removes Abilities from Pokémon in play, hands and discard except Garbotoxin itself. Dowsing Machine's Aichi review specifically highlights Boost Shake Garbodor as a major reason Absol performed well: against decks choosing to go second, turn-1 Garbotoxin can exist before Dedenne-GX/Crobat V/other Ability engines ever resolve.
+
+Sequence your own Rule Box draw before turning Garbotoxin on when possible. Dedenne-GX, Crobat V, Squawkabilly ex, Tapu Lele-GX and Forest Seal Stone are powerful setup resources but become unavailable under Garbotoxin. Float Stone is both mobility and the normal Tool that activates Garbotoxin; Adventure Bag improves access. Wally is another evolution route. The brain should compare "lock now" against "extract one more setup Ability first" rather than using a fixed order.
+
+Mega Absol ex is the attacking conversion. Dark Patch plus manual attachment/search can accelerate its [DDC] Claw of Darkness, and the attack deals 200 while revealing the opponent's hand and discarding the most strategically important card found there. Target selection should be graph-aware: remove the unique switch, Field Blower, recovery card, evolution, Energy connector, or attacker piece that most threatens Garbotoxin or Mega Absol's clock, not simply the rarest card. Iono/Roxanne can compress the hand first and make Claw of Darkness more punishing.
+
+Budew offers an alternate early Item-lock lead when Garbodor is not yet established or when Item denial is more damaging than immediate Ability lock. Because the two locks interact with the same setup resources differently, the brain should evaluate which one disconnects the opponent's actual opening. Temple of Sinnoh pressures Special Energy strategies; Karen can erase discard-pile Pokémon engines such as Regidrago's Apex Dragon payloads; Field Blower is held for opposing Tools/Stadiums or to reset a board interaction when needed.
+
+Against Regidrago, the ideal race is often: establish Garbotoxin before its Rule Box draw/search engine resolves, then use Claw of Darkness to remove the best hand resource while attacking. If Regidrago gets an Active Wobbuffet before Garbodor's lock matters, recognize that Bide Barricade can suppress Garbotoxin and reopen its setup graph.
+
+Primary objective: create the earliest reliable Garbotoxin state, preserve it with Tool access, and use Mega Absol's hand-selective attacks plus hand disruption to prevent the opponent from rebuilding before the Prize clock closes.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/mega-absol
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
