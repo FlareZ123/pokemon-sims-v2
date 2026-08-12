@@ -1,0 +1,38 @@
+Pokémon: 22
+3 Duskull PRE 35
+3 Dusclops PRE 36
+3 Dusknoir PRE 37
+1 Dusknoir BCR 63
+3 Unown AOR 30
+3 Koffing CEC 76
+1 Chimecho CIN 43
+1 Gengar & Mimikyu-GX TEU 53
+1 Radiant Alakazam SIT 59
+1 Bloodmoon Ursaluna ex TWM 141
+1 Latias ex SSP 76
+1 Tapu Lele-GX GRI 60
+
+Trainer: 33
+4 Roxie CEC 205
+4 Fog Crystal CRE 140
+4 Rescue Carrier EVS 154
+3 Random Receiver FCO 109
+3 Rescue Stretcher GRI 130
+2 Battle VIP Pass FST 225
+2 Buddy-Buddy Poffin TEF 144
+2 Hisuian Heavy Ball ASR 146
+1 Quick Ball FST 237
+1 Pokémon Communication TEU 152
+1 Town Map BKT 150
+1 Stadium Nav UNM 208
+1 Field Blower GRI 125
+1 Rare Candy MEG 125
+1 Escape Rope BST 125
+1 PokéStop PGO 68
+1 Grand Tree SCR 136
+
+Energy: 5
+3 Telepathic Psychic Energy POR 88
+2 Psychic Energy MEE 5
+
+Total Cards: 60
