@@ -1,0 +1,44 @@
+Pokémon: 21
+4 Regidrago V
+3 Regidrago VSTAR
+1 Dialga-GX
+1 Mega Dragonite ex
+1 Dragapult ex
+1 Noivern ex
+1 Hisuian Goodra VSTAR
+1 Kyurem
+1 Dedenne-GX
+1 Tapu Lele-GX
+1 Squawkabilly ex
+1 Oricorio-GX
+1 Latias ex
+1 Marshadow
+1 Sudowoodo
+1 Budew
+
+Trainer: 29
+2 Guzma
+2 Raihan
+1 Professor's Research
+1 Lillie's Determination
+1 Carmine
+1 N
+1 Crispin
+4 Quick Ball
+4 Mysterious Treasure
+3 VS Seeker
+1 Ultra Ball
+1 Hisuian Heavy Ball
+1 Battle Compressor
+1 Super Rod
+1 Counter Catcher
+1 Megaton Blower
+2 Muscle Band
+1 Sky Field
+
+Energy: 10
+4 Double Dragon Energy
+4 Grass Energy
+2 Fire Energy
+
+Total Cards: 60
