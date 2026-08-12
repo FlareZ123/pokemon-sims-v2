@@ -40,3 +40,25 @@ Energy: 8
 1 Double Colorless Energy SUM 136
 
 Total Cards: 60
+
+Usage:
+This is Kohei Hamamichi's top-32 CL Aichi 2026 Quad Iron Thorns ex list. It is a full stall/control version with coin-flip Energy denial, explicit mill, liability creation and Spiky Energy, while retaining the Thunder Mountain + DCE first-turn attack branch. The brain should treat attack and deck-out as interchangeable conversion paths after Initialization has slowed the opponent.
+
+The only Pokémon are four Iron Thorns ex, so the board is built around keeping an Iron Thorns Active and therefore keeping Initialization live. Initialization suppresses Rule Box Pokémon Abilities except Future Pokémon. Do not treat that as permanent: an opposing Active Wobbuffet or another valid Ability-suppression/removal interaction can turn Initialization off and reopen the opponent's engine.
+
+The aggressive ALS is Tag Call -> Guzma & Hala -> Thunder Mountain Prism Star + Double Colorless Energy + a Tool, allowing Volt Cyclone on turn 1 going second when all pieces are legal. Thunder Mountain removes the Lightning portion of [LCC], leaving [CC] for DCE. This exact list has only one DCE, so the attack line is powerful but less redundant than the 24th-place build; losing or prizing the DCE should push the brain toward Speed Lightning/manual Energy development instead of pretending the route still exists.
+
+The long control package is extensive. Plumeria, Team Flare Grunt, four Crushing Hammer and Enhanced Hammer attack the opponent's Energy; Lusamine and VS Seeker recur Supporters/Stadiums; Team Rocket's Handiwork mills; Faba removes Special Energy/Tools/Stadiums; Eri/Sidney/Team Skull Grunt attack hand resources. Captivating Poké Puff and Target Whistle can put an otherwise unwanted Pokémon onto the opponent's Bench, after which Guzma can trap or attack it. This is a deliberate alternate win axis against decks whose main attacker is difficult to exhaust directly.
+
+Spiky Energy is a list-specific damage-pressure tool: while attached under its printed conditions it punishes attacks into Iron Thorns and can change knockout math without spending the deck's attack. Palace Belt, Handheld Fan and Tool Jammer are other board-control Tools; their exact printed effects should be implemented in the shared card layer, while the brain decides which Tool creates the highest-value denial state.
+
+Tropical Beach and Player's Ceremony make passing/control turns productive. Wondrous Labyrinth can add an attack-cost tax on top of Energy denial. Thunder Mountain serves the opposite role for the aggressive turn, so Stadium selection is a strategic mode switch rather than a generic Stadium priority.
+
+A trapped high-retreat support Pokémon can be a near-terminal state only when the opponent's live switch/recovery routes are also covered. If the opponent can still establish a durable attacker, Volt Cyclone pressure may be necessary; if repeated Energy denial plus Handiwork makes attacking unnecessary, preserve resources and deck them out.
+
+Primary objective: establish Initialization before the opponent's Rule Box engine, use the denial package to make their next meaningful attack non-executable, manufacture weak Active targets when possible, and choose between sustained deck-out and Volt Cyclone based on which closes the game with fewer escape windows.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/iron-thorns
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results

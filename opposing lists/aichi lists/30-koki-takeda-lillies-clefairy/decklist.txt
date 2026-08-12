@@ -37,3 +37,25 @@ Energy: 7
 2 Telepathic Psychic Energy POR 88
 
 Total Cards: 60
+
+Usage:
+This is Koki Takeda's top-32 CL Aichi 2026 Psychic Box built around Lillie's Clefairy ex. It is a wide-Bench Basic toolbox powered by Wondrous Patch, Telepathic Psychic Energy and an Unown/Rescue Carrier draw engine. Lillie's Clefairy ex is both the main attacker and an anti-Dragon engine piece; Mimikyu + Dialga-GX creates a separate Regidrago punish line. The brain should select among these attackers from public board state rather than treating Clefairy as the only plan.
+
+Lillie's Clefairy ex is the main efficient attacker. Fairy Zone makes the opponent's Dragon Pokémon Psychic-weak while Clefairy is in play, turning Regidrago VSTAR and other Dragons into favorable targets for this Psychic deck. Full Moon Rondo scales with Benched Pokémon on both sides, so Sky Field is both board capacity and damage. A related Expanded Clefairy analysis notes that with a full Sky Field board the attack can reach VSTAR/TAG TEAM knockout ranges while requiring only two Energy. Wondrous Patch is the key acceleration: attach a Basic Psychic Energy from the discard pile to a Benched Psychic Pokémon, then use the manual attachment to complete the attacker. Keep a Basic Psychic in the discard whenever possible so Patch remains live.
+
+The Unown engine is deliberately resilient to common Expanded Ability lock. Farewell Letter discards Unown from the Bench to draw a card, and Rescue Carrier returns low-HP Unown so it can cycle again. Telepathic Psychic Energy synergizes directly with this engine: when attached from hand to a Psychic Pokémon, it can search up to two Basic Psychic Pokémon onto the Bench, increasing both draw access and Clefairy's Full Moon Rondo damage. Dowsing Machine specifically highlights Telepathic Energy + Unown as an Aichi engine that functions through Wobbuffet, Iron Thorns ex and Path to the Peak.
+
+Against Regidrago, Mimikyu GRI + Dialga-GX is the high-impact counter-combo. If the opponent used Apex Dragon on the previous turn, Mimikyu's Copycat can copy that attack; the copied Apex Dragon can then use this deck's discarded Dialga-GX Timeless-GX. With Lillie's Clefairy ex making Regidrago Psychic-weak, Timeless-GX's 150 becomes 300, KOing Regidrago VSTAR while granting an extra turn. The subsequent turn can power Clefairy and take more Prizes. This line is strong enough to constrain how Regidrago attacks, but do not assume it is available unless Mimikyu, Dialga in discard, the required Energy, Fairy Zone and the opponent's prior attack all satisfy the exact rules.
+
+Empoleon V is a matchup lead/control piece. While Active, Emperor's Eyes suppresses Abilities on the opponent's Basic non-Rule-Box Pokémon. That can shut off Unown-style engines, one-Prize utility Abilities or other Basic support without disabling opposing Rule Box Pokémon. It also suppresses the exact class of support this deck itself does not rely on as heavily. Use it when the opponent's Basic non-Rule-Box engine is more important than immediately attacking with Clefairy.
+
+Minior is a pivot and anti-trap piece. Attaching an Energy from hand to Benched Minior can switch it Active through Far-Flying Meteor, bypassing ordinary retreat restrictions; Gravitational Tackle punishes high Retreat Cost Actives. This makes Minior important against Snorlax-style trapping and should prevent the brain from declaring a bad Active permanently stranded while Minior + attachment remain live.
+
+Fezandipiti ex provides post-KO draw through Flip the Script. Latias ex gives the all-Basic board broad retreat support. Dedenne-GX, Crobat V, Squawkabilly ex, Tapu Lele-GX and Forest Seal Stone are high-output setup pieces but create two-Prize liabilities; use Sky Field to extract them when needed and be ready to discard consumed liabilities if the Stadium is replaced. Three Field Blower are deliberately heavy protection against Garbotoxin Tools, Path/Silent Lab-style Stadiums and opposing Tools that remove Fairy Zone or shut down the engine.
+
+Primary objective: build a wide Psychic board without overcommitting Prize liabilities, use Wondrous Patch/Telepathic Energy/Unown to maintain cheap attacker recovery, and choose the matchup-specific conversion—Clefairy pressure, Mimikyu->Apex->Timeless against Regidrago, Empoleon Ability denial, or Minior trap escape—that most directly wins the race.
+
+Research references:
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
+https://note.com/dramon_h2so4/n/nb09ec323ce18

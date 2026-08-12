@@ -42,3 +42,23 @@ Energy: 10
 2 Fire Energy MEE 2
 
 Total Cards: 60
+
+Usage:
+This is Yuya Nagatsuma's top-32 CL Aichi 2026 Regidrago VSTAR list. It is a four-DDE aggressive toolbox with two Dialga-GX, Echoing Horn, Prime Catcher and Eldegoss V. Compared with the Goodra-heavy mirror builds, this exact list gives up Rolling Iron and instead leans harder on extra-turn access, gust manipulation and repeated Supporter retrieval.
+
+The setup engine is four Mysterious Treasure + four Quick Ball, backed by Dedenne-GX, Crobat V, Tapu Lele-GX, Eldegoss V and discard draw. Battle Compressor and discard connectors position Dialga-GX, Dragapult ex, Noivern ex, Koraidon ex and Kyurem for Apex Dragon. Four Double Dragon Energy make DDE the preferred acceleration route; Crispin and Raihan provide basic-Energy recovery/burst when DDE is unavailable or disabled.
+
+Two Dialga-GX copies increase access to Timeless-GX and reduce the risk that a single prized/recovered/Bench-displaced Dialga removes the extra-turn attack. Timeless-GX should be valued by the entire extra turn it creates, especially a follow-up gust, Phantom Dive, Trifrost or another knockout. Koraidon ex is also important as a Dragon payload and as a potential non-Regidrago attacker in specific counter states.
+
+Echoing Horn is explicit Aichi mirror technology. It can return Budew for a Phantom Dive Prize target or move an opposing Dialga-GX/Koraidon ex from discard onto the Bench, temporarily removing those attacks from Apex Dragon access. Prime Catcher provides the same-turn gust/switch axis without consuming the Supporter, while Guzma is the repeatable Supporter-based version. The brain should evaluate Horn + gust + attack as a graph-disruption sequence, not three isolated card effects.
+
+Eldegoss V's Happy Match can recover a Supporter from discard when it is benched, giving the deck another way to access Guzma, Raihan, Crispin, N/Marnie or draw after those cards have already been spent. It is also a two-Prize Bench liability, so only bench it when the recovered Supporter materially improves the current race. Net Ball adds another Basic Grass/Energy connector and should be evaluated against what Quick Ball/Treasure are already covering.
+
+Budew is the Item-lock lead when one denied Item turn buys more tempo than immediate Regidrago setup. Path to the Peak should be played after extracting required Rule Box Abilities; Parallel City can constrain opposing Bench engines or discard the user's already-consumed support Pokémon. Muscle Band changes Timeless/other knockout thresholds.
+
+Primary objective: establish Apex Dragon quickly, use Timeless-GX and the high-density gust package to control which Pokémon survive to respond, and use Echoing Horn to manipulate the opponent's discard/Prize map when that removes their best Regidrago attack or creates a decisive knockout.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/regidrago
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
