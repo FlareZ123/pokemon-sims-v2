@@ -1,40 +1,40 @@
 Pokémon: 15
-4 Unown
-1 Voltorb
-2 Electrode-GX
-1 Toedscool
-2 Toedscruel
-1 Mega Absol ex
-1 Sableye V
-1 Gengar & Mimikyu-GX
-1 Dedenne-GX
-1 Squawkabilly ex
+4 Unown AOR 30
+1 Voltorb ROS 21
+2 Electrode-GX CES 48
+1 Toedscool PAR 16
+2 Toedscruel PAR 17
+1 Mega Absol ex MEG 86
+1 Sableye V SSH 120
+1 Gengar & Mimikyu-GX TEU 53
+1 Dedenne-GX UNB 57
+1 Squawkabilly ex PAL 169
 
 Trainer: 38
-2 Iono
-2 Guzma
-1 Plumeria
-4 Battle VIP Pass
-4 Trainers' Mail
-4 Rescue Carrier
-3 Ultra Ball
-3 Rescue Stretcher
-2 Hisuian Heavy Ball
-2 VS Seeker
-1 Battle Compressor
-1 Escape Rope
-1 Canceling Cologne
-1 Secret Box
-1 Float Stone
-1 Muscle Band
-1 Forest Seal Stone
-2 Silent Lab
-1 Path to the Peak
-1 PokéStop
+2 Iono PAL 185
+2 Guzma BUS 115
+1 Plumeria BUS 120
+4 Battle VIP Pass FST 225
+4 Trainers' Mail ROS 92
+4 Rescue Carrier EVS 154
+3 Ultra Ball MEG 131
+3 Rescue Stretcher GRI 130
+2 Hisuian Heavy Ball ASR 146
+2 VS Seeker PHF 109
+1 Battle Compressor PHF 92
+1 Escape Rope BST 125
+1 Canceling Cologne ASR 136
+1 Secret Box TWM 163
+1 Float Stone BKT 137
+1 Muscle Band XY 121
+1 Forest Seal Stone SIT 156
+2 Silent Lab PRC 140
+1 Path to the Peak CRE 148
+1 PokéStop PGO 68
 
 Energy: 7
-4 Prism Energy
-2 Darkness Energy
-1 Telepathic Psychic Energy
+4 Prism Energy ASC 216
+2 Darkness Energy MEE 7
+1 Telepathic Psychic Energy POR 88
 
 Total Cards: 60
