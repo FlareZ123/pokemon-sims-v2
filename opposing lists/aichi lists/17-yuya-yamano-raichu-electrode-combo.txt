@@ -1,0 +1,34 @@
+Pokémon: 18
+4 Unown AOR 30
+2 Voltorb ROS 21
+3 Electrode-GX CES 48
+1 Pikachu XY 42
+2 Alolan Raichu UNM 57
+2 Squawkabilly ex PAL 169
+1 Gengar & Mimikyu-GX TEU 53
+1 Marshadow UNB 81
+1 Klefki SVI 96
+1 Ditto ♢ LOT 154
+
+Trainer: 30
+3 Professor's Research JTG 155
+1 Carmine TWM 145
+4 Battle VIP Pass FST 225
+4 Battle Compressor PHF 92
+4 Rescue Carrier EVS 154
+3 Rescue Stretcher GRI 130
+3 Escape Rope BST 125
+2 Trainers' Mail ROS 92
+1 Redeemable Ticket JTG 156
+1 Secret Box TWM 163
+1 Hisuian Heavy Ball ASR 146
+1 U-Turn Board UNM 211
+1 Telescopic Sight VIV 160
+1 PokéStop PGO 68
+
+Energy: 12
+4 Reversal Energy PAL 192
+4 Counter Energy CIN 100
+4 Unit Energy LPM UPR 138
+
+Total Cards: 60
