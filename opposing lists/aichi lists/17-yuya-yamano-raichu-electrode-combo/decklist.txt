@@ -32,3 +32,23 @@ Energy: 12
 4 Unit Energy LPM UPR 138
 
 Total Cards: 60
+
+Usage:
+This is Yuya Yamano's top-32 CL Aichi 2026 Electro Rain OTK list. It uses the same Electrode-GX -> Alolan Raichu six-Prize combo as the top-4 list, but its draw engine is fundamentally different: four Unown plus four Rescue Carrier replace the usual Dedenne-GX/Crobat V/Sky Field engine. This exact architecture was one of Aichi's important innovations and needs its own brain.
+
+The combo objective is still to create a protected setup window, self-KO Electrode-GX copies with Extra Energy Bomb to attach discarded Energy to Alolan Raichu, intentionally fall behind in Prizes, and then use Electro Rain to assign enough 30-damage packets to take all remaining Prizes at once. Gengar & Mimikyu-GX's Horror House-GX is the normal protection attack when the opponent would otherwise interact before the OTK. Unit Energy LPM supplies Psychic for Horror House while also functioning as Lightning-providing Energy for the eventual Raichu line.
+
+Battle Compressor loads the Special Energy into the discard for Electrode-GX and can also position Pokémon for Rescue Stretcher/Carrier routes. Extra Energy Bomb can attach up to five Energy from the discard to a non-GX/non-old-EX Pokémon and then Knocks Out Electrode-GX, giving up two Prizes. Two such activations usually create the four-Prize deficit and Energy stack that makes Counter Energy/Reversal Energy and Electro Rain work. Do not self-KO Electrode before Alolan Raichu and the recovery/Prize map are sufficiently secure.
+
+The Unown engine is the defining distinction. Farewell Letter discards Unown from the Bench to draw a card; Rescue Carrier returns low-HP Unown so those cards can cycle again. Dowsing Machine's Aichi review specifically notes that this engine works through Wobbuffet, Iron Thorns ex and Path to the Peak: Unown is a non-Rule-Box Psychic Pokémon, so those common Ability-lock patterns do not stop Farewell Letter. Because Unown leaves the Bench as it draws, the deck does not need Sky Field and can use PokéStop instead. This also makes it much more resilient to Sudowoodo Bench restriction than the older support-Pokémon build.
+
+Squawkabilly ex is still an explosive early draw option when its Ability is live and the Bench can tolerate the liability. Klefki is an alternate Ability-lock lead that can buy setup time, but it also suppresses the user's Basic Pokémon Abilities while Active, including Unown, so the brain must pivot it away before attempting the Unown cycle. Ditto Prism Star provides flexible Basic evolution access for the Electrode line when its condition is satisfied.
+
+Escape Rope is strategically central because it both moves the combo's lead/attacker and changes the opponent's Active/Bench geometry before Electro Rain. Telescopic Sight can increase damage to appropriate Benched multi-Prize targets. PokéStop accelerates Items and discard setup but can discard important non-Items; use it only when the expected route value exceeds the resource risk.
+
+Primary objective: use the lock-resistant Unown/Carrier engine to assemble Horror House plus the double-Electrode Prize/Energy conversion, then take all six Prizes with Electro Rain before the opponent receives a meaningful response turn.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/electro-rain-otk
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league

@@ -34,3 +34,23 @@ Energy: 7
 7 Darkness Energy MEE 7
 
 Total Cards: 60
+
+Usage:
+This is Takumi Matsumoto's top-16 CL Aichi 2026 Mega Absol ex / Garbodor list. It is a compact disruption-first Absol build with unusually heavy redundancy in both locks: two Budew provide an Item-lock lead and three Garbodor copies across two printings provide the Garbotoxin Ability-lock line. The brain should choose which lock most damages the opponent's current setup graph rather than blindly attempting to stack both.
+
+The preferred going-first Ability-lock ALS is Boost Shake on Trubbish followed by a Tool attachment to Garbodor. Both Garbodor LTR 68 and Garbodor BKP 57 carry Garbotoxin in the exact card data used here: while that Garbodor has a Pokémon Tool attached, Pokémon in play, hands and discard lose Abilities except Garbotoxin. Four Float Stone make the activation/mobility Tool highly accessible. Sequence Crobat V, Dedenne-GX, Squawkabilly ex, Tapu Lele-GX and Forest Seal Stone before Garbotoxin if their Abilities are needed for the same turn.
+
+Budew is the alternate lead. Itchy Pollen can shut off opposing Items for a turn without Energy, which is often better than rushing Garbotoxin against an Item-driven deck or when the evolution/Tool route is incomplete. Two Budew make the line consistent, but they are also easy Prize targets. The policy should compare the opponent turns bought to the cost of opening, benching and later moving Budew.
+
+Mega Absol ex is the attacking conversion. Battle Compressor plus Dark Patch turns discarded Darkness Energy into acceleration; seven basic Darkness Energy mean Temple of Sinnoh is largely asymmetric against Special-Energy decks. Claw of Darkness does 200 and exposes the opponent's hand, allowing the brain to discard the card whose loss most damages the opponent's remaining route. Marnie can compress/randomize that hand first. Plumeria gives an Energy-denial option when one removed Energy buys more time than immediate hand pressure.
+
+Karen is a high-discrete-value matchup card against discard-based engines such as Regidrago: shuffling Pokémon out of both discard piles can remove the Dragon payload Apex Dragon intended to copy. Preserve Karen when that reset is likely to disconnect the opponent's next attack rather than spending it as generic Pokémon recovery.
+
+Secret Box, Ultra Ball and Battle Compressor all impose discard costs, so DCI must be state-aware. Once the lock is established, extra setup cards and dead Boost Shake can become good discard material; before that point, Tools, evolution pieces, Energy and the only available attacker route may be effectively undiscardable.
+
+Primary objective: deny the opponent's most important early resource class with Budew or turn-1 Garbotoxin, then use Mega Absol plus Marnie/Plumeria/Temple/Karen to keep the opponent's recovery graph below the attack clock.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/mega-absol
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league

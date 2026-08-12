@@ -38,3 +38,23 @@ Energy: 8
 2 Fire Energy MEE 2
 
 Total Cards: 60
+
+Usage:
+This is Hayato Omuro's top-32 CL Aichi 2026 Regidrago VSTAR list. It is a Sky Field-heavy, support-Pokémon-dense Regidrago build with three Guzma, Prime Catcher, Sudowoodo, Hisuian Goodra VSTAR and Pokémon Ranger. The brain should exploit its unusually flexible Bench and switching/gust package while recognizing that the list has only three Regidrago V and eight total Energy, so reckless attacker/resource exposure is costly.
+
+Four Battle VIP Pass, four Mysterious Treasure, three Quick Ball, two Dedenne-GX, two Tapu Lele-GX and Squawkabilly ex make the opening highly explosive. Sky Field exists so the deck can use several of these support Pokémon without crowding out Regidrago and matchup techs. However, an opponent replacing Sky Field can force the Bench back down to five; the policy should decide in advance which consumed support Pokémon can be discarded and should avoid leaving essential attackers or Sudowoodo dependent on permanent eight-Bench capacity.
+
+The Dragon toolbox covers the major Regidrago modes. Dialga-GX creates the Timeless-GX extra turn; Dragapult ex supplies spread; Kyurem punishes wide Basic boards; Koraidon ex adds a distinct attack/non-Regidrago attacker option; Hisuian Goodra VSTAR's Rolling Iron is the defensive mirror/control line. Unlike many Aichi lists that cut it, this exact 60 retains Pokémon Ranger, so it has an explicit answer to effects on the player or Pokémon that Ranger can remove. That makes some opposing lock/protection states less absolute than they are against other Regidrago lists.
+
+Mega Kangaskhan ex is not an Apex Dragon discard payload because it is Colorless rather than Dragon. It is a board utility/emergency attacker. While Active, Run Errand draws two cards once per turn; Rapid-Fire Combo costs three Colorless and starts at 200 with additional 50-damage coin flips. With only Grass/Fire basics and DDE that belongs on Dragon Pokémon, Kangaskhan is not the primary attack plan and should not receive three manual attachments unless the game state specifically makes it the best surviving attacker. Treat it primarily as a situational Active/draw node and matchup tech.
+
+Sudowoodo GRI limits the opponent's Bench to four through Roadblock and is especially useful against wide-Bench engines such as Shadow Rider and older Electro Rain variants. This list can simultaneously use Sky Field for its own expanded Bench while restricting the opponent, creating a strong asymmetric board if Sudowoodo remains in play. Do not bench Sudowoodo when the opponent's strategy is unaffected and the slot is more valuable for Regidrago/support.
+
+Three Guzma plus Prime Catcher make gust/switch access a major discrete-strength axis. Use them to remove key setup Pokémon, break Active locks, or create the exact Timeless/Trifrost/Phantom Prize map rather than simply selecting the highest-HP target. Budew can act as a zero-Energy Item-lock lead when one denied Item turn buys more than immediate setup.
+
+Primary objective: use Sky Field to extract an unusually large amount of setup value, preserve enough Regidrago/Energy for a second attacker, and convert the first Apex Dragon attack through gust, spread, Rolling Iron or Timeless sequencing before the opponent can punish the support-heavy Bench.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/regidrago
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
