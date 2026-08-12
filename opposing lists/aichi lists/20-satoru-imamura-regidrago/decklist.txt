@@ -41,3 +41,23 @@ Energy: 10
 2 Fire Energy MEE 2
 
 Total Cards: 60
+
+Usage:
+This is Satoru Imamura's 20th-place CL Aichi 2026 Regidrago VSTAR list. It is an aggressive four-DDE toolbox with two Budew and a high-damage Mega Dragonite ex payload. The brain should be comfortable choosing a lead-based tempo turn instead of immediate Regidrago development when Itchy Pollen disconnects enough of the opponent's opening to win the attack race.
+
+The consistency engine uses Quick Ball, Mysterious Treasure, Ultra Ball, Dedenne-GX, Squawkabilly ex, Tapu Lele-GX and discard draw to build Regidrago quickly. Battle Compressor and search/discard costs place Dialga-GX, Dragapult ex, Mega Dragonite ex, Noivern ex and Kyurem into the discard according to matchup need. Four Double Dragon Energy are the strongest direct Energy connector; Crispin and Raihan recover from attachment disruption or rebuild another attacker.
+
+Two Budew make Item-lock openings a deliberate part of the list rather than a singleton emergency tech. Itchy Pollen costs no Energy, so a Budew that buys a turn can let the deck attach/build Regidrago behind it without spending the main attacker Energy. Against decks whose ALS requires Battle Compressor, TM Evolution, Ball search or other Items on their first meaningful turn, the denied Item window may be worth substantially more than Budew's eventual Prize liability. Against decks with Item-independent setup, benching/opening Budew can simply slow Regidrago and should be avoided.
+
+Mega Dragonite ex's Ryuno Glide is the raw knockout payload: 330 damage followed by discarding two Energy from the attacking Pokémon. When copied through Apex Dragon, the two Energy come from Regidrago, so the brain should only use the attack when the 330 converts into a knockout worth the rebuild cost. Dialga-GX's Timeless-GX instead creates an extra turn; Dragapult ex/Kyurem provide spread; Noivern ex supplies defensive/control attack modes. Muscle Band changes several key knockout thresholds and should be included in attack selection rather than treated as generic damage.
+
+Team Yell Grunt is a narrow tempo Supporter that returns an Energy from the opponent's Active Pokémon to their hand. It is most valuable when one bounced attachment moves the opponent's decisive attack back a full turn or combines with an attack-cost tax/lock. Since playing it consumes the Supporter for the turn, compare that delay against Crispin/Raihan/draw Supporter needs rather than using it simply because an Energy is present.
+
+Path to the Peak and Parallel City are post-setup disruption tools. Use needed Dedenne/Squawk/Tapu Lele/Latias abilities before Path; use Parallel City to restrict an opponent's Bench or remove consumed support liabilities. Megaton Blower is the high-discrete-value Tool/Stadium reset and should be preserved for boards where it actually opens the winning route.
+
+Primary objective: use Budew only when it creates a net-positive tempo race, establish Apex Dragon with four-DDE efficiency, and convert through the attack whose board effect or knockout most sharply reduces the opponent's credible next-turn routes.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/regidrago
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results

@@ -42,3 +42,23 @@ Energy: 13
 3 Darkness Energy MEE 7
 
 Total Cards: 60
+
+Usage:
+This is Mark Takahashi's 19th-place CL Aichi 2026 ADP / Raging Bolt deck. It is a multi-axis Basic attacker and Energy-conversion toolbox, not the Standard-era Ogerpon version of Raging Bolt. The core plan is to use Arceus & Dialga & Palkia-GX to permanently improve the Prize race when practical, then feed a large distributed Basic-Energy board into Raging Bolt ex's Bellowing Thunder for efficient knockouts. Several Pokémon exist primarily because they accelerate Energy onto the board for that conversion.
+
+ADP is a Dragon Pokémon and the four Double Dragon Energy are the cleanest way to satisfy Altered Creation-GX. One DDE can provide the Metal attack cost and the extra Water Energy requirement simultaneously, enabling the enhanced Altered Creation effect without any basic Metal/Water cards in the list. Once enhanced Altered Creation resolves, the user's attacks deal 30 more damage to the opponent's Active for the rest of the game and take one additional Prize when a damage knockout occurs. Because this changes every later Prize map, the brain should strongly prefer the line when the opponent cannot punish the setup turn, but it should not spend a turn on Altered Creation if an immediate Raging Bolt knockout is already the only line that prevents losing.
+
+Raging Bolt ex's Bellowing Thunder costs Lightning + Fighting and may discard any number of Basic Energy from the user's Pokémon, dealing 70 damage per Energy discarded. The Energy does not have to be attached to Raging Bolt itself. Therefore the entire board is a damage reservoir. Professor Sada's Vitality accelerates Basic Energy from the discard to Ancient Pokémon such as Raging Bolt and Sandy Shocks while drawing cards. Battle Compressor can place Basic Energy into the discard to enable these effects.
+
+Tapu Koko Prism Star is another burst accelerator: Dance of the Ancients can Lost Zone Tapu Koko from the Bench to attach a discarded Lightning Energy to each of two Benched Pokémon. Galarian Moltres V's Direflame Wings recovers one Darkness Energy from discard to itself every turn. Ho-Oh-EX's Rebirth is probabilistic but, on heads while Ho-Oh is in the discard, benches it with three different types of Basic Energy from the discard; those three Energy can later be cashed in by Bellowing Thunder. Sandy Shocks ex's Magnetic Absorption becomes live once the opponent has four or fewer Prizes and recovers Fighting Energy to itself. The brain should see all of these as distributed damage acceleration, not as independent attackers that must be powered conventionally.
+
+Sky Field supports the wide Bench demanded by these acceleration nodes plus Dedenne-GX/Crobat V/Squawkabilly ex/Tapu Lele-GX. Sudowoodo is the opposing Bench-control tech and should be benched only when its restriction materially damages the opponent more than the slot costs this deck. Flutter Mane can be promoted as an Ability-denial lead: while Active it removes the opposing Active Pokémon's Ability. This can interrupt a single critical Active-based Ability without shutting off this deck's own Bench engine.
+
+Wait and See Hammer is a going-second acceleration card and should only be considered under its legal opening condition. Secret Box and Battle Compressor have real discard costs; preserve the Basic Energy mix needed for Sada/Rebirth/Koko and the DDE needed for ADP rather than treating all Energy as interchangeable discard material. Guzma supplies both gust and switching to convert the altered Prize map into high-value knockouts.
+
+Primary objective: establish enhanced Altered Creation when the tempo permits, build a distributed Basic-Energy reservoir through Sada/Koko/Moltres/Ho-Oh/Sandy Shocks, and repeatedly convert exactly enough of that reservoir through Bellowing Thunder to take accelerated Prizes without exhausting the next attack.
+
+Research references:
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
+https://note.com/hime_ragi/n/n843be0c4e5ee
+https://limitlesstcg.com/decks/280/results

@@ -43,3 +43,23 @@ Energy: 10
 3 Double Dragon Energy ROS 97
 
 Total Cards: 60
+
+Usage:
+This is Shun Nakajima's 21st-place CL Aichi 2026 Regidrago VSTAR list. It is a balanced toolbox with both Budew and Wobbuffet leads, Hisuian Goodra VSTAR for defensive conversion, two Crispin for basic-Energy burst, and the usual Timeless/Trifrost/Dragapult/Noivern/Koraidon attack package. The brain should treat lead ordering and the transition from lead to attacker as part of the setup graph.
+
+The setup shell is dense: four Mysterious Treasure, four Quick Ball, three VS Seeker, Dedenne-GX, Crobat V, Squawkabilly ex and Tapu Lele-GX provide access and draw, while Battle Compressor/discard costs place the correct Dragon payloads. Three Double Dragon Energy plus two Crispin and Raihan create multiple Energy routes. Because only three Regidrago V are present, preserving a second attacker is important in mirrors and against gust-heavy control.
+
+Budew denies Items with a zero-Energy attack and is strongest when the opponent's first decisive route is Item-dependent. Wobbuffet is a different lead: while Active, Bide Barricade suppresses non-Psychic Pokémon Abilities in play, hands and discard. It can shut down Iron Thorns ex's Initialization, Garbotoxin, Dedenne/Crobat-style engines and other non-Psychic setup nodes, but it also suppresses this deck's own non-Psychic support Abilities while Active. Tapu Lele-GX is Psychic and remains an important exception. The brain must model which own connectors reopen or close under Wobbuffet rather than treating it as free disruption.
+
+Lead order matters when both leads are useful. Wobbuffet first can deny an opposing Ability-driven setup turn; Budew afterward can deny the Item-based escape/rebuild turn, or vice versa if Items are the immediate threat. They cannot both occupy the Active at once, and every pivot consumes a switching/retreat resource. Latias ex, Guzma and ordinary retreat routes should therefore be part of the lead valuation.
+
+Hisuian Goodra VSTAR's Rolling Iron is the defensive mirror/control payload. Dowsing Machine's Aichi analysis notes that Goodra became stronger as many lists cut Pokémon Ranger, because its damage reduction can break the usual Timeless-GX into follow-up knockout sequence. This exact list also uses Noivern ex, Kyurem, Dragapult ex, Koraidon ex and Dialga-GX, so attack selection should be based on the opponent's surviving routes rather than highest damage.
+
+Counter Catcher becomes available while behind in Prizes and can pair naturally with a sacrificed Budew/Wobbuffet lead. Guzma remains the general gust/switch Supporter. Path to the Peak should be sequenced after needed Rule Box Abilities; Parallel City manipulates Bench size and liabilities. Megaton Blower is held for the Tool/Stadium state that otherwise blocks the winning attack or lock escape.
+
+Primary objective: use the correct lead to disconnect the opponent's fastest ALS, transition cleanly into an attack-capable Regidrago, then choose between Timeless extra-turn conversion, Rolling Iron durability, spread, control and gust according to which line produces the first decisive state.
+
+Research references:
+https://dowsingmachine.com/en/archetypes/regidrago
+https://dowsingmachine.com/en/pages/a-review-of-cl-aichi-results
+https://dowsingmachine.com/en/pages/results-from-the-2026-aichi-champions-league
