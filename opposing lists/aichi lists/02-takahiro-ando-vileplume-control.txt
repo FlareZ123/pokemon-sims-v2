@@ -1,45 +1,45 @@
 Pokémon: 26
-2 Pidgey
-2 Pidgeotto
-2 Pidgeot ex
-2 Oddish
-2 Gloom
-2 Vileplume
-1 Vileplume-GX
-2 Lillipup
-2 Herdier
-1 Stoutland
-2 Bunnelby
-1 Fan Rotom
-1 Relicanth
-1 Mr. Mime
-1 Girafarig
-1 Budew
-1 Jirachi
+2 Pidgey MEW 16
+2 Pidgeotto TEU 123
+2 Pidgeot ex OBF 164
+2 Oddish UNB 5
+2 Gloom UNB 7
+2 Vileplume AOR 3
+1 Vileplume-GX CEC 4
+2 Lillipup CEC 174
+2 Herdier SUM 104
+1 Stoutland BCR 122
+2 Bunnelby PRC 121
+1 Fan Rotom SCR 118
+1 Relicanth TEF 84
+1 Mr. Mime PLF 47
+1 Girafarig LOT 94
+1 Budew ASC 16
+1 Jirachi XYP 67
 
 Trainer: 28
-4 Guzma & Hala
-2 Guzma
-1 Cassius
-1 Karen
-1 Plumeria
-1 Gladion
-1 Faba
-1 Lusamine
-1 Bellelba & Brycen-Man
-1 Peonia
-1 Team Yell's Cheer
-4 Tag Call
-3 Stealthy Hood
-2 Technical Machine: Evolution
-1 Counter Gain
-2 Artazon
-1 Grand Tree
+4 Guzma & Hala CEC 193
+2 Guzma BUS 115
+1 Cassius XY 115
+1 Karen XYP 177
+1 Plumeria BUS 120
+1 Gladion CIN 95
+1 Faba LOT 173
+1 Lusamine CIN 96
+1 Bellelba & Brycen-Man CEC 186
+1 Peonia CRE 149
+1 Team Yell's Cheer BRS 149
+4 Tag Call CEC 206
+3 Stealthy Hood UNB 186
+2 Technical Machine: Evolution PAR 178
+1 Counter Gain SSP 169
+2 Artazon PAL 171
+1 Grand Tree SCR 136
 
 Energy: 6
-2 Capture Energy
-2 Jet Energy
-1 Memory Energy
-1 Grass Energy
+2 Capture Energy RCL 171
+2 Jet Energy PAL 190
+1 Memory Energy LOT 194
+1 Grass Energy MEE 1
 
 Total Cards: 60
