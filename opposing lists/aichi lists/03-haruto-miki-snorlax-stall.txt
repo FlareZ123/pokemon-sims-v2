@@ -1,0 +1,45 @@
+Pokémon: 11
+3 Snorlax
+2 Galarian Stunfisk
+1 Regirock
+1 Mimikyu
+1 Girafarig
+1 Bunnelby
+1 Articuno-GX
+1 Rotom V
+
+Trainer: 44
+4 Plumeria
+4 Arven
+2 Team Flare Grunt
+2 Teammates
+2 Lusamine
+1 Team Rocket's Handiwork
+1 Gladion
+1 Guzma
+1 Faba
+1 Penny
+1 Eri
+1 Lillie's Determination
+3 Nest Ball
+3 VS Seeker
+2 Enhanced Hammer
+2 Trainers' Mail
+2 Counter Catcher
+1 Scoop Up Cyclone
+1 Quick Ball
+1 Hisuian Heavy Ball
+1 Night Stretcher
+1 Float Stone
+1 Stealthy Hood
+1 Tool Jammer
+1 Forest Seal Stone
+1 Tropical Beach
+1 Player's Ceremony
+1 Temple of Sinnoh
+
+Energy: 5
+3 Capture Energy
+2 Water Energy
+
+Total Cards: 60
