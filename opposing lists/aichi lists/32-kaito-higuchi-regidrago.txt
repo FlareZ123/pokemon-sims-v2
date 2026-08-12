@@ -1,0 +1,46 @@
+Pokémon: 20
+4 Regidrago V SIT 135
+3 Regidrago VSTAR SIT 136
+2 Budew ASC 16
+1 Dialga-GX UPR 100
+1 Noivern ex PAL 153
+1 Dragapult ex TWM 130
+1 Hisuian Goodra VSTAR LOR 136
+1 Kyurem SFA 47
+1 Mega Dragonite ex ASC 152
+1 Tapu Lele-GX GRI 60
+1 Dedenne-GX UNB 57
+1 Crobat V DAA 104
+1 Fezandipiti ex ASC 142
+1 Latias ex SSP 76
+
+Trainer: 30
+2 Guzma BUS 115
+1 Professor Sycamore BKP 107
+1 Lillie's Determination MEG 119
+1 N FCO 105
+1 Marnie SSH 169
+1 Cynthia & Caitlin CEC 189
+1 Raihan EVS 152
+1 Crispin SCR 133
+1 Pokémon Ranger STS 104
+4 Quick Ball FST 237
+3 Mysterious Treasure FLI 113
+2 Ultra Ball MEG 131
+2 VS Seeker PHF 109
+1 Battle Compressor PHF 92
+1 Hisuian Heavy Ball ASR 146
+1 Super Rod PAL 188
+1 Counter Catcher PAR 160
+1 Megaton Blower SSP 182
+1 Muscle Band XY 121
+1 Stealthy Hood UNB 186
+1 Parallel City BKT 145
+1 Silent Lab PRC 140
+
+Energy: 10
+4 Double Dragon Energy ROS 97
+4 Grass Energy MEE 1
+2 Fire Energy MEE 2
+
+Total Cards: 60
