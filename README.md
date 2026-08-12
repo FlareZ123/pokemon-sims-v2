@@ -11,7 +11,7 @@ Read these before changing simulator behavior:
 1. [`EXPECTED_RESULT_MANIFEST.md`](EXPECTED_RESULT_MANIFEST.md) defines the required end result and output schema. **Do not edit it.**
 2. [`official documentation/EN_advanced_manual-2025-transcription-structured.md`](official%20documentation/EN_advanced_manual-2025-transcription-structured.md) is the first rules reference for implemented game mechanics.
 3. [`official documentation/compendium-ruling-guidance`](official%20documentation/compendium-ruling-guidance) explains when to use the Pokémon TCG Compendium for interaction-specific rulings.
-4. `tcg-data-master` is the card-data source for exact card text and printing data during development. Card behavior should be tied to exact printings rather than inferred from a card name.
+4. For agents: your local environment should have: `tcg-data-master`, this is the card-data source for exact card text and printing data during development. Card behavior should be tied to exact printings rather than inferred from a card name.
 
 Rules-based code should carry a direct authoritative rules, ruling, or card-data URL beside the relevant implementation when practical. Strategic policy and rules legality must stay separate.
 
