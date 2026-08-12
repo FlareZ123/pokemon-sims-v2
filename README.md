@@ -1,0 +1,70 @@
+This file should describe the intended end result and output of the simulator.
+
+For every deck in the `main decks/` folder, the simulator should calculate its win rate against every individual decklist contained anywhere under `opposing lists/`.
+Do not evaluate against decks in `future decks/`, this is so we focus on the more important decks first.
+
+The folder structure may look like:
+
+```text
+main decks/
+  regidrago vstar.txt
+
+opposing lists/
+  aichi lists/
+    01-yasunori-kato-...lyrex.txt
+    02-takahiro-ando-...trol.txt
+
+  other lists/
+    vileplume-experimental-control.txt
+```
+
+Every file under `opposing lists/` represents a separate opposing decklist. The simulator should not assume that all opposing lists come from the same tournament, archetype, or source. Subfolders are organizational only.
+
+For each pairing of:
+
+```text
+main deck × opposing deck
+```
+
+the simulator should run two independent sets of trials:
+
+* **1,000 games with the main deck going first**
+* **1,000 games with the main deck going second**
+
+Therefore, each main-deck/opposing-deck pairing should normally contain **2,000 total simulated games**.
+
+Because there will usually be only one or two decks in `main decks/`, but potentially many decks in `opposing lists/`, results should be presented as **one vertically oriented statistics matrix per main deck**. Opposing lists should occupy the rows rather than making every opposing deck a separate column.
+
+For example:
+
+### Main deck: `regidrago vstar.txt`
+
+| Opposing list                                    | Main goes first | Main goes second |  Combined |    Trials |
+| ------------------------------------------------ | --------------: | ---------------: | --------: | --------: |
+| `aichi lists/01-yasunori-kato-...lyrex.txt`      |           62.4% |            54.8% |     58.6% |     2,000 |
+| `aichi lists/02-takahiro-ando-...trol.txt`       |           47.1% |            60.3% |     53.7% |     2,000 |
+| `other lists/vileplume-experimental-control.txt` |           71.8% |            43.9% |     57.9% |     2,000 |
+| **Overall**                                      |       **60.4%** |        **53.0%** | **56.7%** | **6,000** |
+
+Here, **Main goes first** means that `regidrago vstar.txt` was assigned the first turn for all 1,000 trials in that sample. **Main goes second** means that it was assigned the second turn for all 1,000 trials.
+
+The combined win rate is calculated from all 2,000 games in that matchup rather than treating the two seat-specific percentages as separate matchups.
+
+If a second deck is added to `main decks/`, it should receive its own independent matrix:
+
+### Main deck: `another-main-deck.txt`
+
+| Opposing list                                    | Main goes first | Main goes second |  Combined |    Trials |
+| ------------------------------------------------ | --------------: | ---------------: | --------: | --------: |
+| `aichi lists/01-yasunori-kato-...lyrex.txt`      |           51.6% |            45.2% |     48.4% |     2,000 |
+| `aichi lists/02-takahiro-ando-...trol.txt`       |           68.9% |            61.5% |     65.2% |     2,000 |
+| `other lists/vileplume-experimental-control.txt` |           39.7% |            55.1% |     47.4% |     2,000 |
+| **Overall**                                      |       **53.4%** |        **53.9%** | **53.7%** | **6,000** |
+
+The primary output should therefore answer:
+
+> **For each main deck, what percentage of games does it win against each individual opposing list when going first, when going second, and overall?**
+
+The simulator may additionally record deeper statistics for debugging and analysis—such as decisive turn, win condition, lead Pokémon usage, lock establishment, failed setup route, or reason for loss—but these should supplement the core win-rate matrix rather than replace it.
+
+Each individual game should be a complete matchup simulation. Locks, setup races, lead Pokémon, disruption, and alternate routes should occur naturally inside those games rather than being represented as separate lock-only simulations.
