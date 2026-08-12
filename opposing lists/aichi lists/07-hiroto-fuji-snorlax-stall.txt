@@ -1,0 +1,44 @@
+Pokémon: 12
+3 Wobbuffet
+3 Mimikyu
+2 Snorlax
+2 Regirock
+1 Electrike
+1 Girafarig
+
+Trainer: 44
+4 Steven's Resolve
+2 Faba
+2 N
+2 Teammates
+2 Lusamine
+2 Lillie's Determination
+1 Plumeria
+1 Team Flare Grunt
+1 Guzma
+1 Pokémon Ranger
+1 Team Rocket's Handiwork
+1 Bellelba & Brycen-Man
+1 Gladion
+3 VS Seeker
+3 Counter Catcher
+3 Palace Book
+2 Robo Substitute
+1 Lillie's Poké Doll
+1 Rescue Stretcher
+1 Nest Ball
+1 Enhanced Hammer
+1 Captivating Poké Puff
+1 Target Whistle
+1 Field Blower
+1 Megaton Blower
+1 Tool Jammer
+2 Chaotic Swell
+1 Artazon
+
+Energy: 4
+2 Capture Energy
+1 Recycle Energy
+1 Jet Energy
+
+Total Cards: 60
