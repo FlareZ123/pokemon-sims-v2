@@ -1,45 +1,45 @@
 Pokémon: 11
-3 Snorlax
-2 Galarian Stunfisk
-1 Regirock
-1 Mimikyu
-1 Girafarig
-1 Bunnelby
-1 Articuno-GX
-1 Rotom V
+3 Snorlax PGO 55
+2 Galarian Stunfisk SSH 132
+1 Regirock XYP 49
+1 Mimikyu PAL 97
+1 Girafarig LOT 94
+1 Bunnelby PRC 121
+1 Articuno-GX CES 31
+1 Rotom V LOR 58
 
 Trainer: 44
-4 Plumeria
-4 Arven
-2 Team Flare Grunt
-2 Teammates
-2 Lusamine
-1 Team Rocket's Handiwork
-1 Gladion
-1 Guzma
-1 Faba
-1 Penny
-1 Eri
-1 Lillie's Determination
-3 Nest Ball
-3 VS Seeker
-2 Enhanced Hammer
-2 Trainers' Mail
-2 Counter Catcher
-1 Scoop Up Cyclone
-1 Quick Ball
-1 Hisuian Heavy Ball
-1 Night Stretcher
-1 Float Stone
-1 Stealthy Hood
-1 Tool Jammer
-1 Forest Seal Stone
-1 Tropical Beach
-1 Player's Ceremony
-1 Temple of Sinnoh
+4 Plumeria BUS 120
+4 Arven OBF 186
+2 Team Flare Grunt XY 129
+2 Teammates PRC 141
+2 Lusamine CIN 96
+1 Team Rocket's Handiwork FCO 112
+1 Gladion CIN 95
+1 Guzma BUS 115
+1 Faba LOT 173
+1 Penny SVI 183
+1 Eri TEF 146
+1 Lillie's Determination MEG 119
+3 Nest Ball SVI 181
+3 VS Seeker PHF 109
+2 Enhanced Hammer TWM 148
+2 Trainers' Mail ROS 92
+2 Counter Catcher PAR 160
+1 Scoop Up Cyclone TWM 162
+1 Quick Ball FST 237
+1 Hisuian Heavy Ball ASR 146
+1 Night Stretcher ASC 196
+1 Float Stone BKT 137
+1 Stealthy Hood UNB 186
+1 Tool Jammer BST 136
+1 Forest Seal Stone SIT 156
+1 Tropical Beach BWP 50
+1 Player's Ceremony JP-SP 127
+1 Temple of Sinnoh ASR 155
 
 Energy: 5
-3 Capture Energy
-2 Water Energy
+3 Capture Energy RCL 171
+2 Water Energy MEE 3
 
 Total Cards: 60
