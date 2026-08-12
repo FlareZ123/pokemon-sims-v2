@@ -1,42 +1,42 @@
 Pokémon: 4
-4 Iron Thorns ex
+4 Iron Thorns ex TWM 77
 
 Trainer: 48
-4 Plumeria
-3 Guzma
-2 Guzma & Hala
-2 Team Flare Grunt
-2 Lusamine
-1 Cynthia & Caitlin
-1 Team Skull Grunt
-1 Faba
-1 Eri
-1 Sidney
-1 Gladion
-1 Lillie's Determination
-1 Team Rocket's Handiwork
-4 Crushing Hammer
-3 Trainers' Mail
-3 VS Seeker
-2 Tag Call
-2 Enhanced Hammer
-2 Camping Gear
-1 Palace Book
-1 Captivating Poké Puff
-1 Echoing Horn
-1 Megaton Blower
-1 Handheld Fan
-1 Tool Jammer
-1 Palace Belt
-1 Tropical Beach
-1 Player's Ceremony
-1 Thunder Mountain ♢
-1 Wondrous Labyrinth ♢
+4 Plumeria BUS 120
+3 Guzma BUS 115
+2 Guzma & Hala CEC 193
+2 Team Flare Grunt XY 129
+2 Lusamine CIN 96
+1 Cynthia & Caitlin CEC 189
+1 Team Skull Grunt SUM 133
+1 Faba LOT 173
+1 Eri TEF 146
+1 Sidney FST 241
+1 Gladion CIN 95
+1 Lillie's Determination MEG 119
+1 Team Rocket's Handiwork FCO 112
+4 Crushing Hammer POR 71
+3 Trainers' Mail ROS 92
+3 VS Seeker PHF 109
+2 Tag Call CEC 206
+2 Enhanced Hammer TWM 148
+2 Camping Gear BST 122
+1 Palace Book JP-SMP NAN25
+1 Captivating Poké Puff STS 99
+1 Echoing Horn CRE 136
+1 Megaton Blower SSP 182
+1 Handheld Fan TWM 150
+1 Tool Jammer BST 136
+1 Palace Belt JP-BWP 153
+1 Tropical Beach BWP 50
+1 Player's Ceremony JP-SP 127
+1 Thunder Mountain ♢ LOT 191
+1 Wondrous Labyrinth ♢ TEU 158
 
 Energy: 8
-4 Speed Lightning Energy
-2 Capture Energy
-1 Spiky Energy
-1 Double Colorless Energy
+4 Speed Lightning Energy RCL 173
+2 Capture Energy RCL 171
+1 Spiky Energy JTG 159
+1 Double Colorless Energy SUM 136
 
 Total Cards: 60
