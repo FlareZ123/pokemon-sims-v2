@@ -1,37 +1,37 @@
 Pokémon: 14
-4 Mew V
-3 Mew VMAX
-4 Genesect V
-1 Dedenne-GX
-1 Crobat V
-1 Lillie's Clefairy ex
+4 Mew V FST 113
+3 Mew VMAX FST 114
+4 Genesect V FST 185
+1 Dedenne-GX UNB 57
+1 Crobat V DAA 104
+1 Lillie's Clefairy ex JTG 56
 
 Trainer: 42
-2 Guzma
-2 Karen
-1 Wally
-1 Marnie
-1 Pokémon Ranger
-4 Quick Ball
-4 Ultra Ball
-3 Trainers' Mail
-3 Battle VIP Pass
-2 Special Charge
-2 VS Seeker
-2 Special Red Card
-1 Enhanced Hammer
-1 Field Blower
-1 Lost Vacuum
-1 Escape Rope
-1 Hisuian Heavy Ball
-1 Secret Box
-2 Muscle Band
-2 Float Stone
-1 Forest Seal Stone
-2 Sky Field
-2 Path to the Peak
+2 Guzma BUS 115
+2 Karen XYP 177
+1 Wally ROS 94
+1 Marnie SSH 169
+1 Pokémon Ranger STS 104
+4 Quick Ball FST 237
+4 Ultra Ball MEG 131
+3 Trainers' Mail ROS 92
+3 Battle VIP Pass FST 225
+2 Special Charge STS 105
+2 VS Seeker PHF 109
+2 Special Red Card CRI 82
+1 Enhanced Hammer TWM 148
+1 Field Blower GRI 125
+1 Lost Vacuum LOR 162
+1 Escape Rope BST 125
+1 Hisuian Heavy Ball ASR 146
+1 Secret Box TWM 163
+2 Muscle Band XY 121
+2 Float Stone BKT 137
+1 Forest Seal Stone SIT 156
+2 Sky Field ROS 89
+2 Path to the Peak CRE 148
 
 Energy: 4
-4 Double Colorless Energy
+4 Double Colorless Energy SUM 136
 
 Total Cards: 60
