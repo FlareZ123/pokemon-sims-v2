@@ -66,6 +66,83 @@ Quarantined inputs. Leave this directory alone unless the project owner explicit
 
 Local rules references. Use the advanced manual first. Consult the Compendium when the manual does not resolve a specific interaction cleanly.
 
+## Decklist format and `Usage:` addendum
+
+Deck files in `main decks/`, `opposing lists/`, and eventually promoted decks use the **Pokémon TCG Live deck import/export text format** as the machine-readable decklist portion. The simulator should accept the same basic structure produced by PTCGL: section headers such as `Pokémon:`, `Trainer:`, and `Energy:`, followed by quantity + card name + set code + collector number lines, and ending with `Total Cards: 60`.
+
+A normal deck file therefore looks like:
+
+```text
+Pokémon: 2
+2 Example Pokémon ABC 123
+
+Trainer: 50
+4 Example Trainer DEF 45
+...
+
+Energy: 8
+8 Basic Example Energy ENG 1
+
+Total Cards: 60
+```
+
+The repository extends that format with one optional, human-readable strategy appendix. Exactly two newline characters after the completed `Total Cards: 60` line may begin:
+
+```text
+Usage:
+<text>
+```
+
+In raw form, the boundary is:
+
+```text
+Total Cards: 60\n\nUsage:\n...
+```
+
+Everything from the `Usage:` marker through end-of-file is **commentary, not deck data**. The deck parser must stop processing card-list data at that boundary and must not interpret, validate as cards, count, or execute anything in the Usage body. Any amount of text is allowed after `Usage:`, including multiple paragraphs, blank lines, punctuation, card names, example lines that resemble PTCGL entries, matchup notes, or other free-form prose.
+
+`Usage:` is optional. A normal PTCGL import that ends at `Total Cards: 60` remains valid and represents the same deck as an otherwise identical file with a Usage appendix. The appendix never changes the 60-card contents.
+
+The purpose of `Usage:` is to give agents and policy authors high-level context about how the exact list intends to play. It can describe an archetype's normal game plan, ALS/opening sequences, control objectives, lead Pokémon priorities, important recovery loops, matchup-specific goals, or traps that a generic card-by-card evaluator could misunderstand. For example, a Snorlax Stall list should explain that its primary plan is to trap and exhaust the opponent rather than behave like an attacking deck; piloting the same 60 cards under the wrong strategic objective can make an otherwise accurate rules simulation meaningless.
+
+A Usage appendix is **guidance, not rules text and not a hardcoded move script**. Agents should use it to understand the deck and then implement or improve the appropriate policy module. The runtime deck parser should ignore it. If future tooling exposes Usage text to development tools, it must remain separate from the parsed card list and must not silently override game rules, hidden information, or legal-action generation.
+
+Example:
+
+```text
+Pokémon: 11
+3 Snorlax PGO 55
+...
+
+Trainer: 44
+4 Plumeria BUS 120
+...
+
+Energy: 5
+3 Capture Energy RCL 171
+2 Water Energy MEE 3
+
+Total Cards: 60
+
+Usage:
+This is a stall/control deck. Its primary objective is to strand an opposing Pokémon
+that cannot attack effectively, maintain Block/retrap pressure, recur Supporters, and
+remove Energy or escape resources. Do not evaluate the deck as though its main goal
+were to race for damage with Snorlax.
+
+Additional lines and matchup notes are allowed here. None of this text is part of the
+60-card decklist.
+```
+
+Parser tests should explicitly verify that:
+
+- a stock PTCGL export ending at `Total Cards: 60` parses normally;
+- the same export plus `\n\nUsage:\n...` produces exactly the same 60 parsed cards;
+- arbitrary multiline Usage text is ignored by the deck parser;
+- card-looking lines inside Usage do not add cards or alter counts;
+- malformed deck data before `Total Cards: 60` is not excused by a Usage appendix;
+- deck identity, hashing, and simulation pairing should be based on the parsed cardlist/path as designed, not accidentally changed by commentary text unless a separate explicit metadata hash is desired for tooling.
+
 ## Target source architecture
 
 The source tree should grow toward the following boundaries. These directories are architectural targets, so create them only as implementation work reaches them.
@@ -387,7 +464,9 @@ This repository is expected to receive concurrent agent work. Keep changes easy 
 - Consult the Compendium when a rules interaction remains ambiguous.
 - Leave `EXPECTED_RESULT_MANIFEST.md` unchanged.
 - Leave `future decks/` unchanged unless explicitly tasked.
-- Treat decklist files as input data. Avoid changing them while implementing engine or policy behavior unless the task is specifically a decklist correction.
+- Treat decklist files as input data. Avoid changing them while implementing engine or policy behavior unless the task is specifically a decklist correction or Usage documentation task.
+- Parse decklists as PTCGL import text with the optional `Usage:` appendix described above; never count Usage text as cards.
+- Read a deck's `Usage:` notes when developing its policy so the simulator does not optimize toward the wrong archetype objective.
 - Keep generic rules free of archetype strategy.
 - Keep policy logic out of card effect handlers.
 - Put matchup terminal shortcuts in adjudication modules and test them independently.
