@@ -1,36 +1,36 @@
 Pokémon: 14
-2 Mega Absol ex
-2 Trubbish
-2 Garbodor
-1 Garbodor
-2 Budew
-2 Crobat V
-1 Tapu Lele-GX
-1 Dedenne-GX
-1 Squawkabilly ex
+2 Mega Absol ex MEG 86
+2 Trubbish CRI 56
+2 Garbodor LTR 68
+1 Garbodor BKP 57
+2 Budew ASC 16
+2 Crobat V DAA 104
+1 Tapu Lele-GX GRI 60
+1 Dedenne-GX UNB 57
+1 Squawkabilly ex PAL 169
 
 Trainer: 39
-2 Marnie
-1 Lillie's Determination
-1 Carmine
-1 Guzma
-1 Plumeria
-1 Karen
-4 Quick Ball
-3 Ultra Ball
-3 Trainers' Mail
-3 VS Seeker
-3 Dark Patch
-3 Battle Compressor
-2 Battle VIP Pass
-2 Boost Shake
-1 Secret Box
-4 Float Stone
-1 Muscle Band
-1 Forest Seal Stone
-2 Temple of Sinnoh
+2 Marnie SSH 169
+1 Lillie's Determination MEG 119
+1 Carmine TWM 145
+1 Guzma BUS 115
+1 Plumeria BUS 120
+1 Karen XYP 177
+4 Quick Ball FST 237
+3 Ultra Ball MEG 131
+3 Trainers' Mail ROS 92
+3 VS Seeker PHF 109
+3 Dark Patch ASR 139
+3 Battle Compressor PHF 92
+2 Battle VIP Pass FST 225
+2 Boost Shake EVS 142
+1 Secret Box TWM 163
+4 Float Stone BKT 137
+1 Muscle Band XY 121
+1 Forest Seal Stone SIT 156
+2 Temple of Sinnoh ASR 155
 
 Energy: 7
-7 Darkness Energy
+7 Darkness Energy MEE 7
 
 Total Cards: 60
