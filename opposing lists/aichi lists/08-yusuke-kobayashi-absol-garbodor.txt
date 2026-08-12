@@ -1,44 +1,44 @@
 Pokémon: 12
-2 Mega Absol ex
-2 Trubbish
-2 Garbodor
-1 Tapu Koko ♢
-1 Dedenne-GX
-1 Crobat V
-1 Squawkabilly ex
-1 Tapu Lele-GX
-1 Budew
+2 Mega Absol ex MEG 86
+2 Trubbish PAR 116
+2 Garbodor LTR 68
+1 Tapu Koko ♢ TEU 51
+1 Dedenne-GX UNB 57
+1 Crobat V DAA 104
+1 Squawkabilly ex PAL 169
+1 Tapu Lele-GX GRI 60
+1 Budew ASC 16
 
 Trainer: 41
-1 Lillie's Determination
-1 Carmine
-1 Iono
-1 Roxanne
-1 Guzma
-1 Crispin
-1 Wally
-1 Karen
-4 Quick Ball
-4 Dark Patch
-3 VS Seeker
-2 Battle Compressor
-2 Ultra Ball
-2 Battle VIP Pass
-1 Boost Shake
-1 Secret Box
-1 Night Stretcher
-1 Super Rod
-1 Pokémon Communication
-1 Hisuian Heavy Ball
-1 Field Blower
-1 Adventure Bag
-4 Float Stone
-1 Muscle Band
-1 Forest Seal Stone
-2 Temple of Sinnoh
+1 Lillie's Determination MEG 119
+1 Carmine TWM 145
+1 Iono PAL 185
+1 Roxanne ASR 150
+1 Guzma BUS 115
+1 Crispin SCR 133
+1 Wally ROS 94
+1 Karen XYP 177
+4 Quick Ball FST 237
+4 Dark Patch ASR 139
+3 VS Seeker PHF 109
+2 Battle Compressor PHF 92
+2 Ultra Ball MEG 131
+2 Battle VIP Pass FST 225
+1 Boost Shake EVS 142
+1 Secret Box TWM 163
+1 Night Stretcher ASC 196
+1 Super Rod PAL 188
+1 Pokémon Communication TEU 152
+1 Hisuian Heavy Ball ASR 146
+1 Field Blower GRI 125
+1 Adventure Bag LOT 167
+4 Float Stone BKT 137
+1 Muscle Band XY 121
+1 Forest Seal Stone SIT 156
+2 Temple of Sinnoh ASR 155
 
 Energy: 7
-5 Darkness Energy
-2 Lightning Energy
+5 Darkness Energy MEE 7
+2 Lightning Energy MEE 4
 
 Total Cards: 60
